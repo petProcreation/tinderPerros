@@ -24,9 +24,4 @@ router.get('/chat/Firulais', (req, res) => {
 
 
 
-
-
-router.get('public/styles/main.css', (req, res) => {
-    res.sendFile('public/styles/main.css', { root: '.' });
-});
 module.exports = router;
