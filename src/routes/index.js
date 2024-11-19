@@ -22,4 +22,11 @@ router.get('/chat/Firulais', (req, res) => {
     res.sendFile('public/views/chat.html', {root: '.'});
 });
 
+
+
+
+
+router.get('public/styles/main.css', (req, res) => {
+    res.sendFile('public/styles/main.css', { root: '.' });
+});
 module.exports = router;
