@@ -1,7 +1,7 @@
 const express = require('express');
 const router = require('./routes/index');
 const { configDotenv } = require('dotenv');
-import { connect } from 'mongoose';
+const { connect } = require('mongoose');
 require('dotenv')
 
 

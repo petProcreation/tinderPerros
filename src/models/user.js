@@ -1,5 +1,4 @@
-import { Schema, model } from 'mongoose';
-
+const { Schema, model } = require('mongoose');
 
 // Create a new schema
 const userSchema = new Schema({
@@ -18,14 +17,21 @@ const userSchema = new Schema({
     password: {
         type: String
     },
-    picture:{
-        type: Image,
-        required: false
-    }
-
-});
+    role: {
+        type: String,
+        default: 'user',
+        enum: ['user', 'admin'],
+    },
+    status: {
+        type: String,
+        default: 'active',
+        enum: ['active', 'inactive'],
+    },
+},
+ { timestamps: true});
 
 
 const User = model('User', userSchema);
 
-export default User;
+
+module.exports = User;

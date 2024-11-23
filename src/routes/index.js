@@ -1,6 +1,10 @@
-const { Router } = require('express');
+const express = require('express');
+const { userRouter } = require('./users.routes.js');
 
-const router = Router();
+const router = express.Router();
+
+router.use('/api/v0/users', userRouter);
+
 
 router.get('/', (req, res) => {
     res.sendFile('public/views/home.html', { root: '.' });
@@ -21,7 +25,6 @@ router.get('/chats', (req, res) => {
 router.get('/chat/Firulais', (req, res) => {
     res.sendFile('public/views/chat.html', {root: '.'});
 });
-
 
 
 module.exports = router;
