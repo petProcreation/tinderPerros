@@ -1,9 +1,13 @@
 const express = require('express');
-const { userRouter } = require('./users.routes.js');
+const { userRouter } = require('./users.routes');
+const { petRouter } = require('./pets.routes');
+const { matchRouter } = require('./match.routes');
 
 const router = express.Router();
 
 router.use('/api/v0/users', userRouter);
+router.use('/api/v0/pets', petRouter);
+router.use('/api/v0/matches', matchRouter);
 
 
 router.get('/', (req, res) => {

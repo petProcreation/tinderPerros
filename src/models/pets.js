@@ -1,10 +1,9 @@
 const { Schema, model } = require('mongoose');
 
 // Create a new schema
-const userSchema = new Schema({
+const petSchema = new Schema({
     id:{
-        type: Number,
-        required: true
+        type: Number
     },
     name: {
         type: String,
@@ -14,32 +13,34 @@ const userSchema = new Schema({
         type: Number,
         required: true,
     },
-    email: {	
+    species: {
         type: String,
         required: true,
     },
-    password: {
-        type: String
-    },
-    role: {
+    race: {
         type: String,
-        default: 'user',
-        enum: ['user', 'admin'],
+        required: true,
+    },
+    owner: {
+        type: Schema.Types.ObjectId,
+        ref: 'User',
     },
     status: {
         type: String,
         default: 'active',
         enum: ['active', 'inactive'],
     },
-    pets: [{
-        type: Schema.Types.ObjectId,
-        ref: 'Pet',
-    }]
+    profilePic: {
+        type: String,
+    },
+    description: {
+        type: String,
+    }
 },
  { timestamps: true});
 
 
-const User = model('User', userSchema);
+const Pet = model('Pet', petSchema);
 
 
-module.exports = User;
+module.exports = Pet;
