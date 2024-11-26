@@ -2,13 +2,11 @@ const express = require('express');
 const router = require('./routes/index');
 const { configDotenv } = require('dotenv');
 const { connect } = require('mongoose');
-const { Server } = require('socket.io');
-
+const { Server } = require('socket.io')
 require('dotenv')
 const mongoose = require('mongoose');
 
 const { MongoClient, ServerApiVersion } = require('mongodb');
-
 
 
 configDotenv();
