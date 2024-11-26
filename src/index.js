@@ -2,9 +2,7 @@ const express = require('express');
 const router = require('./routes/index');
 const { configDotenv } = require('dotenv');
 const { connect } = require('mongoose');
-const uri = require('./config');
 const { Server } = require('socket.io');
-
 require('dotenv')
 
 const { MongoClient, ServerApiVersion } = require('mongodb');
@@ -18,12 +16,6 @@ db.on('connected', () => {
     console.log('Conexión establecida correctamente.');
     console.log(mongoose.connection.readyState);
 });
-mongoose.connect(uri, {useNewUrlParser: true});
-
-
-configDotenv();
-const port = process.env.PORT || 3000; 
-const dburl = process.env.DB_URL;
 
 
 const app = express();
@@ -36,9 +28,6 @@ connect(dburl).then(res => {
     
     const server = app.listen(port, () => {
         console.log(`App running on port ${port}`);
-        
-        
-        
         
     });
     const io = new Server(server);
