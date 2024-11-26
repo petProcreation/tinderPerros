@@ -24,7 +24,7 @@ router.get('/contact', (req, res) => {
 });
 
 router.get('/chats', (req, res) => {
-    res.sendFile('public/views/chat_index.html', {root: '.'});
+    res.sendFile('public/views/chat.html', {root: '.'});
 })
 
 router.get('/chat/Firulais', (req, res) => {
