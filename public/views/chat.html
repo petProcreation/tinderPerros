@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>Chat con Firulais</title>
+    <title>Chats</title>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -9,9 +9,8 @@
     <!-- Bootstrap CSS v5.2.1 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
-    <link href="/styles/chat.css" rel="stylesheet">
+    <link href="/public/styles/chat.css" rel="stylesheet">
     <script src="/socket.io/socket.io.js"></script>
-
 </head>
 <body>
     <!-- Encabezado -->
@@ -20,7 +19,7 @@
             <div class="d-flex justify-content-between align-items-center">
                 <!-- Logo -->
                 <a href="/home" class="text-muted">PetProcreation</a>
-                <img src="/image/logo.png" alt="PetProcreation" class="img-fluid" width="50">
+                <img src="/public/image/logo.png" alt="PetProcreation" class="img-fluid" width="50">
                 <!-- Barra de búsqueda -->
                 <div class="input-group w-50">
                     <input type="text" class="form-control" placeholder="Busca la pareja de tu mascota aquí" aria-label="Buscar">
@@ -28,7 +27,7 @@
                         <i class="bi bi-search"></i>
                     </button>
                     <span class="input-group-text bg-light text-muted">
-                        <i id="trigger" class="bi bi-info-circle"></i>
+                        <i class="bi bi-info-circle"></i>
                     </span>
                 </div>
                 <!-- Íconos superiores -->
@@ -52,7 +51,7 @@
                     <a href="/views/profiles.html" class="nav-link">Perfiles de Perros</a>
                 </li>
                 <li class="nav-item">
-                    <a href="/chats" class="nav-link">Parejas Recientes</a>
+                    <a href="#recent-couples" class="nav-link">Parejas Recientes</a>
                 </li>
                 <li class="nav-item">
                     <a href="/contact" class="nav-link">Contacto</a>
@@ -61,9 +60,53 @@
         </div>
     </nav>
     <main>
-        <div id="chat" class="chat-container">
+        <!-- Lista de Chats -->
+        <div id="chat-list" class="container mt-4">
+            <ul class="list-group">
+                <li class="list-group-item d-flex align-items-center" onclick="openChat('Firulais')">
+                    <img src="" alt="Mascota 1" class="img-fluid rounded-circle" width="50">
+                    <div class="ms-3">
+                        <h5 class="mb-1">Chat con Firulais</h5>
+                        <p class="mb-0 text-muted">Último mensaje...</p>
+                    </div>
+                </li>
+                <li class="list-group-item d-flex align-items-center" onclick="openChat('Michi')">
+                    <img src="" alt="Mascota 2" class="img-fluid rounded-circle" width="50">
+                    <div class="ms-3">
+                        <h5 class="mb-1">Chat con Michi</h5>
+                        <p class="mb-0 text-muted">Último mensaje...</p>
+                    </div>
+                </li>
+                <li class="list-group-item d-flex align-items-center" onclick="openChat('Rex')">
+                    <img src="" alt="Mascota 3" class="img-fluid rounded-circle" width="50">
+                    <div class="ms-3">
+                        <h5 class="mb-1">Chat con Rex</h5>
+                        <p class="mb-0 text-muted">Último mensaje...</p>
+                    </div>
+                </li>
+                <li class="list-group-item d-flex align-items-center" onclick="openChat('Nemo')">
+                    <img src="" alt="Mascota 4" class="img-fluid rounded-circle" width="50">
+                    <div class="ms-3">
+                        <h5 class="mb-1">Chat con Nemo</h5>
+                        <p class="mb-0 text-muted">Último mensaje...</p>
+                    </div>
+                </li>
+                <li class="list-group-item d-flex align-items-center" onclick="openChat('Tweety')">
+                    <img src="" alt="Mascota 5" class="img-fluid rounded-circle" width="50">
+                    <div class="ms-3">
+                        <h5 class="mb-1">Chat con Tweety</h5>
+                        <p class="mb-0 text-muted">Último mensaje...</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <!-- Chat Individual -->
+        <div id="chat" class="chat-container d-none">
             <div class="chat-header">
                 <div class="d-flex align-items-center">
+                    <button class="btn btn-light me-3" onclick="goBackToList()">
+                        <i class="bi bi-arrow-left"></i>
+                    </button>
                     <img src="https://i.ytimg.com/vi/bxkbpFEPX_4/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLATtHd_lOTfulOZ2h8zkx7pwExHZg" alt="PetProcreation" class="img-fluid rounded-circle" width="40">
                     <span id="chattingTo" class="ml-3">Nombre del usuario con el que se chatea</span>
                 </div>
@@ -71,7 +114,7 @@
                     <a href="#" class="text-white text-decoration-none">Mi Cuenta</a>
                 </div>
             </div>
-            <div id="chat-messages" class="chat-messages" id="chat-messages">
+            <div id="chat-messages" class="chat-messages">
                 <div class="message sent">Hola, a que parque vamos con firulai</div>
                 <div class="message received">hola el metropolitano</div>
                 <div class="message sent">Perfecto ahi te veo a las 10am</div>
@@ -91,5 +134,17 @@
     <!-- Bootstrap JavaScript Libraries -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <script>
+        function openChat(chatName) {
+            document.getElementById('chat-list').classList.add('d-none');
+            document.getElementById('chat').classList.remove('d-none');
+            document.getElementById('chattingTo').innerText = chatName;
+        }
+
+        function goBackToList() {
+            document.getElementById('chat').classList.add('d-none');
+            document.getElementById('chat-list').classList.remove('d-none');
+        }
+    </script>
 </body>
 </html>

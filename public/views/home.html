@@ -10,7 +10,7 @@
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
     crossorigin="anonymous"
   />
-  <link rel="stylesheet" href="/styles/main.css">
+  <link href="/public/styles/chat.css" rel="stylesheet">
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
 </head>
@@ -21,7 +21,7 @@
       <div class="d-flex justify-content-between align-items-center">
         <!-- Logo -->
         <a href="/home" class="text-muted">PetProcreation</a>
-        <img src="/image/logo.png" alt="PetProcreation" class="img-fluid" width="50">
+        <img src="/public/image/logo.png" alt="PetProcreation" class="img-fluid" width="50">
         <!-- Barra de búsqueda -->
         <div class="input-group w-50">
             <input 
@@ -49,31 +49,42 @@
   <!-- Navegación -->
   <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
     <div class="container-fluid">
-      <ul class="navbar-nav me-auto">
-        <li class="nav-item">
-          <a href="/home" class="nav-link">Inicio</a>
-        </li>
-        <li class="nav-item">
-          <a href="/views/profiles.html" class="nav-link">Perfiles de Perros</a>
-        </li>
-        <li class="nav-item">
-          <a href="/chats" class="nav-link">Chats</a>
-        </li>
-        <li class="nav-item">
-          <a href="/views/contact.html" class="nav-link">Contacto</a>
-        </li>
-      </ul>
-      <div>
-        <button class="btn btn-primary me-2" data-bs-toggle="modal" data-bs-target="#loginModal">Iniciar Sesión</button>
-        <button class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#registerModal">Registrarse</button>
-      </div>
+        <a class="navbar-brand" href="/home">PetProcreation</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                    <a href="/home" class="nav-link">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/views/profiles.html" class="nav-link">Perfiles de Perros</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/chats" class="nav-link">Chats</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/views/contact.html" class="nav-link">Contacto</a>
+                </li>
+            </ul>
+            <div>
+                <button class="btn btn-primary me-2" data-bs-toggle="modal" data-bs-target="#loginModal">Iniciar Sesión</button>
+                <button class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#registerModal">Registrarse</button>
+            </div>
+        </div>
     </div>
   </nav>
 
   <!-- Sección principal -->
   <main class="container text-center my-5">
-    <button class="btn btn-lg btn-gradient-pink shadow-lg py-3 px-5">Busca la pareja de tu perro</button>
-  </main>
+    <div class="d-flex flex-column align-items-center">
+        <video controls autoplay class="mb-4">
+            <source src="/public/image/pets.mp4" type="video/mp4">
+        </video>
+        <a href="/views/profiles.html" class="btn btn-lg btn-gradient-pink shadow-lg py-3 px-5">Busca la pareja de tu mascota</a>
+    </div>
+</main>
 
   <!-- Modales -->
   <!-- Modal Iniciar Sesión -->

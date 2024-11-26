@@ -1,5 +1,5 @@
 body {
-    background-color: #e5ddd5;
+    background-color: #A4B494;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .chat-container {
@@ -31,7 +31,7 @@ body {
     align-self: flex-end;
 }
 .message.received {
-    background-color: cyan;
+    background-color: #3AAED8;
     align-self: flex-start;
 }
 .chat-input {

@@ -39,3 +39,9 @@ socket.on('messageRecieved', (data) => {
     window.scrollTo(0, document.body.scrollHeight);
 });
 
+
+function openChat(chatName) {
+    document.getElementById('chat-list').classList.add('d-none');
+    document.getElementById('chat').classList.remove('d-none');
+    document.getElementById('chattingTo').innerText = chatName;
+}
