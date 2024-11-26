@@ -4,7 +4,12 @@ const userChat = document.getElementById('userChat').value;
 const chat = document.getElementById('chat');
 
 
-socket.emit('joinedRoom', { room: `${userChat}` });
+socket.emit('joinedRoom', {
+     room: `${userChat}`,
+     // Aquí debería ir el usuario logeado
+     user: `logedInUser`,
+     chattingTo: `${userChat}`
+     });
 
 
 document.getElementById('sendTrigger').addEventListener('click', () => {    

@@ -4,9 +4,15 @@ const { configDotenv } = require('dotenv');
 const { connect } = require('mongoose');
 const { Server } = require('socket.io');
 require('dotenv')
+const mongoose = require('mongoose');
 
 const { MongoClient, ServerApiVersion } = require('mongodb');
 
+
+
+configDotenv();
+const port = process.env.PORT || 3000; 
+const dburl = process.env.DB_URL || '';
 let db = mongoose.connection;
 db.on('connecting', () => {
     console.log('Conectando a la base de datos...');
@@ -19,9 +25,9 @@ db.on('connected', () => {
 
 
 const app = express();
+app.use(express.static('public'));
 app.use(express.json());
 app.use(router);
-
 
 connect(dburl).then(res => {
     console.log("Connected to DB");
@@ -34,6 +40,7 @@ connect(dburl).then(res => {
 
     io.on('connection', (socket) => {
         io.on('joinedRoom', (data) => {
+            console.log(`User: ${data.room} joined room`);
 
         });
 
