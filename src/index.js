@@ -2,10 +2,23 @@ const express = require('express');
 const router = require('./routes/index');
 const { configDotenv } = require('dotenv');
 const { connect } = require('mongoose');
+const uri = require('./config');
 const { Server } = require('socket.io');
+
 require('dotenv')
 
+const { MongoClient, ServerApiVersion } = require('mongodb');
 
+let db = mongoose.connection;
+db.on('connecting', () => {
+    console.log('Conectando a la base de datos...');
+    console.log(mongoose.connection.readyState);
+});
+db.on('connected', () => {
+    console.log('Conexión establecida correctamente.');
+    console.log(mongoose.connection.readyState);
+});
+mongoose.connect(uri, {useNewUrlParser: true});
 
 
 configDotenv();
