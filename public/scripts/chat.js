@@ -13,9 +13,6 @@ socket.emit('joinedRoom', {
     });
 
 
-
-
-
 document.getElementById('send-button').addEventListener('click', () => {    
     const message = document.getElementById('message-input').value;
 
