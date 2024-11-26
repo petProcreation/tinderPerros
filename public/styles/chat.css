@@ -53,3 +53,11 @@ body {
     border-radius: 50%;
     padding: 10px;
 }
+.list-group-item {
+    background-color: #fff;
+    border: none;
+    border-bottom: 1px solid #ddd;
+}
+.list-group-item:hover {
+    background-color: #f1f1f1;
+}
