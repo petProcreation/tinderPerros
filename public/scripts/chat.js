@@ -1,16 +1,28 @@
 const socket = io('/');
 // Este valor debe regresar con quién está chateando el usuario principal
-const userChat = document.getElementById('chattingTo').innerText;
 const chat =  document.getElementById('chat-messages');
 
-
-
-socket.emit('joinedRoom', {
-    room: `${userChat}`,
-    // Aquí debería ir el usuario logeado
-    user: `logedInUser`,
-    chattingTo: `${userChat}`
+function openChat(chatName) {    
+    socket.emit('joinedRoom', {
+        room: `${chatName}`,
+        // Aquí debería ir el usuario logeado
+        user: `logedInUser`,
+        chattingTo: `${chatName}`
     });
+
+    document.getElementById('chat-list').classList.add('d-none');
+    document.getElementById('chat').classList.remove('d-none');
+    document.getElementById('chattingTo').innerText = chatName;
+
+
+    
+}
+
+function goBackToList() {
+    document.getElementById('chat').classList.add('d-none');
+    document.getElementById('chat-list').classList.remove('d-none');
+}
+
 
 
 document.getElementById('send-button').addEventListener('click', () => {    

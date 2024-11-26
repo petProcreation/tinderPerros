@@ -6,9 +6,6 @@ const { Server } = require('socket.io')
 require('dotenv')
 const mongoose = require('mongoose');
 
-const { MongoClient, ServerApiVersion } = require('mongodb');
-
-
 configDotenv();
 const port = process.env.PORT || 3000; 
 const dburl = process.env.DB_URL || '';
@@ -41,8 +38,6 @@ connect(dburl).then(res => {
         socket.on('joinedRoom', (data) => {
             socket.join(data.room);
             socket.broadcast.to(data.room).emit('userJoined: ', data.user);
-            console.log(`User ${data.user} joined room ${data.room}`);
-
         });        
 
         socket.on('sendNewMessage', (data) => {
