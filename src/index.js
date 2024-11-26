@@ -38,15 +38,15 @@ connect(dburl).then(res => {
     const io = new Server(server);
 
     io.on('connection', (socket) => {
-        io.on('joinedRoom', (data) => {
-            console.log(`User: ${data.room} joined room`);
+        socket.on('joinedRoom', (data) => {
+            socket.join(data.room);
+            socket.broadcast.to(data.room).emit('userJoined: ', data.user);
+            console.log(`User ${data.user} joined room ${data.room}`);
 
-        });
+        });        
 
-        
-
-        io.on('sendNewMessage', (data) => {
-            io.emit('messageRecieved', data);
+        socket.on('sendNewMessage', (data) => {
+            socket.broadcast.emit('messageRecieved',data);
         });
 
     });
@@ -54,7 +54,7 @@ connect(dburl).then(res => {
     io.on('disconnect', () => {
         console.log('User disconnected');
     });
-
+    
     
 
 
