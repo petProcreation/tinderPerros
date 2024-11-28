@@ -18,6 +18,9 @@ db.on('connected', () => {
     console.log('Conexión establecida correctamente.');
     console.log(mongoose.connection.readyState);
 });
+db.on('error', (err) => {
+    console.error('Error en la conexión a la base de datos:', err);
+});
 
 const app = express();
 app.use(express.static('public'));
@@ -29,8 +32,8 @@ connect(dburl).then(res => {
     
     const server = app.listen(port, () => {
         console.log(`App running on port ${port}`);
-        
     });
+    
     const io = new Server(server);
 
     io.on('connection', (socket) => {
@@ -42,7 +45,6 @@ connect(dburl).then(res => {
         socket.on('sendNewMessage', (data) => {
             socket.broadcast.emit('messageRecieved',data);
         });
-
     });
 
     io.on('disconnect', () => {
@@ -50,5 +52,5 @@ connect(dburl).then(res => {
     });
     
 }).catch(err => {
-    console.log("Error connecting to DB");
+    console.log("Error connecting to DB:", err);
 });

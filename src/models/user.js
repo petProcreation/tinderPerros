@@ -1,11 +1,6 @@
 const { Schema, model } = require('mongoose');
 
-// Create a new schema
 const userSchema = new Schema({
-    id:{
-        type: Number,
-        required: true
-    },
     name: {
         type: String,
         required: true,
@@ -17,9 +12,11 @@ const userSchema = new Schema({
     email: {	
         type: String,
         required: true,
+        unique: true
     },
     password: {
-        type: String
+        type: String,
+        required: true
     },
     role: {
         type: String,
@@ -35,11 +32,8 @@ const userSchema = new Schema({
         type: Schema.Types.ObjectId,
         ref: 'Pet',
     }]
-},
- { timestamps: true});
-
+}, { timestamps: true });
 
 const User = model('User', userSchema);
-
 
 module.exports = User;

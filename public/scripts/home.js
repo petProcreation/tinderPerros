@@ -15,7 +15,7 @@ document.getElementById('login-btn').addEventListener('click', () => {
     document.getElementById('register-modal').classList.add('hidden');
   });
   
-document.getElementById('registerForm').addEventListener('submit', async function(event) {
+  document.getElementById('registerForm').addEventListener('submit', async function(event) {
     event.preventDefault();
     const name = document.getElementById('registerName').value;
     const age = document.getElementById('registerAge').value;
@@ -38,7 +38,7 @@ document.getElementById('registerForm').addEventListener('submit', async functio
     } else {
         alert('Error al registrarse');
     }
-  });
+});
 
 document.getElementById('loginForm').addEventListener('submit', async function(event) {
     event.preventDefault();

@@ -4,7 +4,6 @@ const jwt = require('jsonwebtoken');
 const User = require('../models/user');
 const authRouter = express.Router();
 
-
 const secretKey = 'petprocOt2024';
 
 authRouter.post('/login', async (req, res) => {
