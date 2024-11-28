@@ -66,7 +66,7 @@
                     <a href="/views/contact.html" class="nav-link">Contacto</a>
                 </li>
                 <li>
-                  <a href="#newPetModal" class="registerPet nav-link">Registra una nueva mascota</a>
+                  <button class="btn" data-bs-toggle="modal" data-bs-target="#newPetModal">Registra una nueva mascota</button>
                 </li>
             </ul>
             <div id="auth-buttons">
@@ -89,40 +89,7 @@
 
   <!-- Modales -->
 
-  <!-- Modal registrar nueva mascota -->
-   <div class="modal fade" id="newPetModal" tabindex="-1" aria-labelledby="newPetModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="newPetModalLabel">Registrar Nueva Mascota</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          <form id="newPetForm">
-            <div class="mb-3">
-                <label for="petName" class="form-label">Nombre</label>
-                <input type="text" class="form-control" id="petName" required>
-            </div>
-            <div class="mb-3">
-                <label for="petAge" class="form-label">Edad</label>
-                <input type="number" class="form-control" id="petAge" required>
-            </div>
-            <div class="mb-3">
-                <label for="petBreed" class="form-label">Raza</label>
-                <input type="text" class="form-control" id="petBreed" required>
-            </div>
-            <div class="mb-3">
-                <label for="petGender" class="form-label">Género</label>
-                <select class="form-select" id="petGender" required>
-                </select>
-            </div>
-            <div class="mb-3">
-                <label for="petDescription" class="form-label">Descripción</label>
-                <textarea class="form-control" id="petDescription" rows="3" required></textarea>
-            </div>
-            <button id="registerPet" type="submit" class="btn btn-primary w-100">Registrar Mascota</button>
-        </form>
-   </div>
+ 
   <!-- Modal Iniciar Sesión -->
   <div class="modal fade hidden" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
     <div class="modal-dialog">
@@ -184,6 +151,45 @@
       </div>
     </div>
   </div>
+
+   <!-- Modal registrar nueva mascota -->
+   <div class="modal fade" id="newPetModal" tabindex="-1" aria-labelledby="newPetModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="newPetModalLabel">Registrar Nueva Mascota</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form id="newPetForm">
+            <div class="mb-3">
+                <label for="petName" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="petName" required>
+            </div>
+            <div class="mb-3">
+                <label for="petAge" class="form-label">Edad</label>
+                <input type="number" class="form-control" id="petAge" required>
+            </div>
+            <div class="mb-3">
+                <label for="petBreed" class="form-label">Raza</label>
+                <input type="text" class="form-control" id="petBreed" required>
+            </div>
+            <div class="mb-3">
+                <label for="petGender" class="form-label">Género</label>
+                <select class="form-select" id="petGender" required>
+                </select>
+            </div>
+            <div class="mb-3">
+                <label for="petDescription" class="form-label">Descripción</label>
+                <textarea class="form-control" id="petDescription" rows="3" required></textarea>
+            </div>
+            <button id="registerPet" type="submit" class="btn btn-primary w-100">Registrar Mascota</button>
+        </form>
+   </div>
+      </div>
+    </div>
+  </div>
+
   <footer class="text-center py-3 bg-pink text-white">
     &copy; 2024 PetProcreation - Todos los derechos reservados
   </footer>
