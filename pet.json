@@ -1,0 +1,3280 @@
+[
+    {
+        "id": 1,
+        "name": "Jane Smith",
+        "age": 44,
+        "email": "janesmith1@testmail.com",
+        "password": "securepassword1",
+        "role": "admin",
+        "status": "inactive",
+        "pets": [
+            {
+                "id": 869,
+                "name": "Pet-32",
+                "age": 8,
+                "species": "Bird",
+                "race": "Goldfish",
+                "owner": 1,
+                "status": "active",
+                "profilePic": "https://example.com/pet92.jpg",
+                "description": "A cat with a energetic personality."
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "David Williams",
+        "age": 49,
+        "email": "davidwilliams2@mailinator.com",
+        "password": "securepassword2",
+        "role": "user",
+        "status": "inactive",
+        "pets": [
+            {
+                "id": 188,
+                "name": "Pet-74",
+                "age": 6,
+                "species": "Fish",
+                "race": "Persian",
+                "owner": 2,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet7.jpg",
+                "description": "A rabbit with a calm personality."
+            },
+            {
+                "id": 571,
+                "name": "Pet-95",
+                "age": 13,
+                "species": "Dog",
+                "race": "Goldfish",
+                "owner": 2,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet32.jpg",
+                "description": "A cat with a playful personality."
+            },
+            {
+                "id": 898,
+                "name": "Pet-55",
+                "age": 7,
+                "species": "Fish",
+                "race": "Angora",
+                "owner": 2,
+                "status": "active",
+                "profilePic": "https://example.com/pet43.jpg",
+                "description": "A fish with a friendly personality."
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Sarah Johnson",
+        "age": 54,
+        "email": "sarahjohnson3@mailinator.com",
+        "password": "securepassword3",
+        "role": "user",
+        "status": "inactive",
+        "pets": [
+            {
+                "id": 696,
+                "name": "Pet-84",
+                "age": 6,
+                "species": "Cat",
+                "race": "Persian",
+                "owner": 3,
+                "status": "active",
+                "profilePic": "https://example.com/pet81.jpg",
+                "description": "A rabbit with a energetic personality."
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Emily Doe",
+        "age": 26,
+        "email": "emilydoe4@example.com",
+        "password": "securepassword4",
+        "role": "admin",
+        "status": "active",
+        "pets": [
+            {
+                "id": 59,
+                "name": "Pet-49",
+                "age": 3,
+                "species": "Dog",
+                "race": "Parakeet",
+                "owner": 4,
+                "status": "active",
+                "profilePic": "https://example.com/pet61.jpg",
+                "description": "A dog with a energetic personality."
+            },
+            {
+                "id": 676,
+                "name": "Pet-83",
+                "age": 9,
+                "species": "Dog",
+                "race": "Labrador",
+                "owner": 4,
+                "status": "active",
+                "profilePic": "https://example.com/pet24.jpg",
+                "description": "A fish with a friendly personality."
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Jane Smith",
+        "age": 34,
+        "email": "janesmith5@mailinator.com",
+        "password": "securepassword5",
+        "role": "admin",
+        "status": "active",
+        "pets": [
+            {
+                "id": 576,
+                "name": "Pet-43",
+                "age": 15,
+                "species": "Bird",
+                "race": "Goldfish",
+                "owner": 5,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet11.jpg",
+                "description": "A cat with a energetic personality."
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Jessica Brown",
+        "age": 64,
+        "email": "jessicabrown6@example.com",
+        "password": "securepassword6",
+        "role": "user",
+        "status": "inactive",
+        "pets": [
+            {
+                "id": 556,
+                "name": "Pet-94",
+                "age": 13,
+                "species": "Rabbit",
+                "race": "Persian",
+                "owner": 6,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet72.jpg",
+                "description": "A bird with a calm personality."
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Jessica Martinez",
+        "age": 22,
+        "email": "jessicamartinez7@example.com",
+        "password": "securepassword7",
+        "role": "user",
+        "status": "inactive",
+        "pets": [
+            {
+                "id": 86,
+                "name": "Pet-74",
+                "age": 12,
+                "species": "Rabbit",
+                "race": "Labrador",
+                "owner": 7,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet12.jpg",
+                "description": "A bird with a friendly personality."
+            },
+            {
+                "id": 46,
+                "name": "Pet-62",
+                "age": 15,
+                "species": "Dog",
+                "race": "Goldfish",
+                "owner": 7,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet51.jpg",
+                "description": "A fish with a energetic personality."
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Emily Brown",
+        "age": 34,
+        "email": "emilybrown8@mailinator.com",
+        "password": "securepassword8",
+        "role": "user",
+        "status": "inactive",
+        "pets": [
+            {
+                "id": 103,
+                "name": "Pet-67",
+                "age": 10,
+                "species": "Rabbit",
+                "race": "Labrador",
+                "owner": 8,
+                "status": "active",
+                "profilePic": "https://example.com/pet16.jpg",
+                "description": "A dog with a calm personality."
+            },
+            {
+                "id": 578,
+                "name": "Pet-5",
+                "age": 7,
+                "species": "Dog",
+                "race": "Labrador",
+                "owner": 8,
+                "status": "active",
+                "profilePic": "https://example.com/pet23.jpg",
+                "description": "A rabbit with a energetic personality."
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Jessica Garcia",
+        "age": 23,
+        "email": "jessicagarcia9@testmail.com",
+        "password": "securepassword9",
+        "role": "admin",
+        "status": "inactive",
+        "pets": [
+            {
+                "id": 360,
+                "name": "Pet-61",
+                "age": 8,
+                "species": "Rabbit",
+                "race": "Angora",
+                "owner": 9,
+                "status": "active",
+                "profilePic": "https://example.com/pet6.jpg",
+                "description": "A fish with a energetic personality."
+            },
+            {
+                "id": 573,
+                "name": "Pet-45",
+                "age": 8,
+                "species": "Dog",
+                "race": "Persian",
+                "owner": 9,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet66.jpg",
+                "description": "A cat with a friendly personality."
+            },
+            {
+                "id": 312,
+                "name": "Pet-40",
+                "age": 5,
+                "species": "Fish",
+                "race": "Labrador",
+                "owner": 9,
+                "status": "active",
+                "profilePic": "https://example.com/pet30.jpg",
+                "description": "A bird with a energetic personality."
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Jane Jones",
+        "age": 25,
+        "email": "janejones10@testmail.com",
+        "password": "securepassword10",
+        "role": "user",
+        "status": "inactive",
+        "pets": [
+            {
+                "id": 520,
+                "name": "Pet-9",
+                "age": 2,
+                "species": "Rabbit",
+                "race": "Goldfish",
+                "owner": 10,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet50.jpg",
+                "description": "A fish with a energetic personality."
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Emily Smith",
+        "age": 36,
+        "email": "emilysmith11@example.com",
+        "password": "securepassword11",
+        "role": "user",
+        "status": "inactive",
+        "pets": [
+            {
+                "id": 240,
+                "name": "Pet-36",
+                "age": 14,
+                "species": "Bird",
+                "race": "Persian",
+                "owner": 11,
+                "status": "active",
+                "profilePic": "https://example.com/pet59.jpg",
+                "description": "A rabbit with a friendly personality."
+            },
+            {
+                "id": 689,
+                "name": "Pet-100",
+                "age": 13,
+                "species": "Dog",
+                "race": "Goldfish",
+                "owner": 11,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet92.jpg",
+                "description": "A cat with a playful personality."
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "name": "Chris Williams",
+        "age": 54,
+        "email": "chriswilliams12@mailinator.com",
+        "password": "securepassword12",
+        "role": "user",
+        "status": "active",
+        "pets": [
+            {
+                "id": 619,
+                "name": "Pet-10",
+                "age": 6,
+                "species": "Fish",
+                "race": "Goldfish",
+                "owner": 12,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet48.jpg",
+                "description": "A fish with a playful personality."
+            },
+            {
+                "id": 536,
+                "name": "Pet-23",
+                "age": 10,
+                "species": "Dog",
+                "race": "Parakeet",
+                "owner": 12,
+                "status": "active",
+                "profilePic": "https://example.com/pet52.jpg",
+                "description": "A bird with a energetic personality."
+            },
+            {
+                "id": 402,
+                "name": "Pet-43",
+                "age": 15,
+                "species": "Bird",
+                "race": "Goldfish",
+                "owner": 12,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet52.jpg",
+                "description": "A fish with a playful personality."
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "name": "John Smith",
+        "age": 57,
+        "email": "johnsmith13@testmail.com",
+        "password": "securepassword13",
+        "role": "user",
+        "status": "active",
+        "pets": [
+            {
+                "id": 621,
+                "name": "Pet-65",
+                "age": 5,
+                "species": "Bird",
+                "race": "Persian",
+                "owner": 13,
+                "status": "active",
+                "profilePic": "https://example.com/pet41.jpg",
+                "description": "A fish with a friendly personality."
+            },
+            {
+                "id": 48,
+                "name": "Pet-82",
+                "age": 6,
+                "species": "Fish",
+                "race": "Goldfish",
+                "owner": 13,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet27.jpg",
+                "description": "A bird with a calm personality."
+            },
+            {
+                "id": 726,
+                "name": "Pet-13",
+                "age": 14,
+                "species": "Dog",
+                "race": "Angora",
+                "owner": 13,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet83.jpg",
+                "description": "A rabbit with a energetic personality."
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "name": "John Jones",
+        "age": 26,
+        "email": "johnjones14@example.com",
+        "password": "securepassword14",
+        "role": "user",
+        "status": "inactive",
+        "pets": [
+            {
+                "id": 841,
+                "name": "Pet-32",
+                "age": 5,
+                "species": "Dog",
+                "race": "Angora",
+                "owner": 14,
+                "status": "active",
+                "profilePic": "https://example.com/pet89.jpg",
+                "description": "A fish with a calm personality."
+            },
+            {
+                "id": 890,
+                "name": "Pet-63",
+                "age": 5,
+                "species": "Dog",
+                "race": "Angora",
+                "owner": 14,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet98.jpg",
+                "description": "A rabbit with a playful personality."
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "name": "Jessica Jones",
+        "age": 20,
+        "email": "jessicajones15@mailinator.com",
+        "password": "securepassword15",
+        "role": "admin",
+        "status": "active",
+        "pets": [
+            {
+                "id": 145,
+                "name": "Pet-45",
+                "age": 4,
+                "species": "Fish",
+                "race": "Labrador",
+                "owner": 15,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet81.jpg",
+                "description": "A bird with a calm personality."
+            },
+            {
+                "id": 59,
+                "name": "Pet-61",
+                "age": 11,
+                "species": "Fish",
+                "race": "Angora",
+                "owner": 15,
+                "status": "active",
+                "profilePic": "https://example.com/pet17.jpg",
+                "description": "A bird with a energetic personality."
+            },
+            {
+                "id": 987,
+                "name": "Pet-20",
+                "age": 4,
+                "species": "Cat",
+                "race": "Parakeet",
+                "owner": 15,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet50.jpg",
+                "description": "A bird with a playful personality."
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "name": "Chris Smith",
+        "age": 53,
+        "email": "chrissmith16@testmail.com",
+        "password": "securepassword16",
+        "role": "admin",
+        "status": "inactive",
+        "pets": [
+            {
+                "id": 399,
+                "name": "Pet-69",
+                "age": 5,
+                "species": "Bird",
+                "race": "Goldfish",
+                "owner": 16,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet61.jpg",
+                "description": "A fish with a energetic personality."
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "name": "David Brown",
+        "age": 54,
+        "email": "davidbrown17@testmail.com",
+        "password": "securepassword17",
+        "role": "admin",
+        "status": "inactive",
+        "pets": [
+            {
+                "id": 705,
+                "name": "Pet-33",
+                "age": 4,
+                "species": "Cat",
+                "race": "Parakeet",
+                "owner": 17,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet35.jpg",
+                "description": "A rabbit with a friendly personality."
+            },
+            {
+                "id": 951,
+                "name": "Pet-34",
+                "age": 3,
+                "species": "Fish",
+                "race": "Angora",
+                "owner": 17,
+                "status": "active",
+                "profilePic": "https://example.com/pet54.jpg",
+                "description": "A cat with a energetic personality."
+            },
+            {
+                "id": 850,
+                "name": "Pet-63",
+                "age": 6,
+                "species": "Fish",
+                "race": "Persian",
+                "owner": 17,
+                "status": "active",
+                "profilePic": "https://example.com/pet22.jpg",
+                "description": "A rabbit with a calm personality."
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "name": "Chris Smith",
+        "age": 63,
+        "email": "chrissmith18@example.com",
+        "password": "securepassword18",
+        "role": "admin",
+        "status": "inactive",
+        "pets": [
+            {
+                "id": 181,
+                "name": "Pet-24",
+                "age": 6,
+                "species": "Dog",
+                "race": "Goldfish",
+                "owner": 18,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet74.jpg",
+                "description": "A cat with a friendly personality."
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "name": "Michael Garcia",
+        "age": 62,
+        "email": "michaelgarcia19@example.com",
+        "password": "securepassword19",
+        "role": "user",
+        "status": "active",
+        "pets": [
+            {
+                "id": 777,
+                "name": "Pet-47",
+                "age": 5,
+                "species": "Fish",
+                "race": "Persian",
+                "owner": 19,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet33.jpg",
+                "description": "A cat with a energetic personality."
+            },
+            {
+                "id": 905,
+                "name": "Pet-3",
+                "age": 11,
+                "species": "Dog",
+                "race": "Labrador",
+                "owner": 19,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet4.jpg",
+                "description": "A rabbit with a calm personality."
+            }
+        ]
+    },
+    {
+        "id": 20,
+        "name": "Jessica Martinez",
+        "age": 28,
+        "email": "jessicamartinez20@testmail.com",
+        "password": "securepassword20",
+        "role": "user",
+        "status": "inactive",
+        "pets": [
+            {
+                "id": 721,
+                "name": "Pet-31",
+                "age": 5,
+                "species": "Fish",
+                "race": "Labrador",
+                "owner": 20,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet97.jpg",
+                "description": "A cat with a calm personality."
+            }
+        ]
+    },
+    {
+        "id": 21,
+        "name": "David Jones",
+        "age": 49,
+        "email": "davidjones21@testmail.com",
+        "password": "securepassword21",
+        "role": "user",
+        "status": "active",
+        "pets": [
+            {
+                "id": 913,
+                "name": "Pet-73",
+                "age": 7,
+                "species": "Dog",
+                "race": "Angora",
+                "owner": 21,
+                "status": "active",
+                "profilePic": "https://example.com/pet74.jpg",
+                "description": "A cat with a calm personality."
+            }
+        ]
+    },
+    {
+        "id": 22,
+        "name": "Michael Johnson",
+        "age": 45,
+        "email": "michaeljohnson22@testmail.com",
+        "password": "securepassword22",
+        "role": "user",
+        "status": "active",
+        "pets": [
+            {
+                "id": 125,
+                "name": "Pet-96",
+                "age": 8,
+                "species": "Fish",
+                "race": "Labrador",
+                "owner": 22,
+                "status": "active",
+                "profilePic": "https://example.com/pet44.jpg",
+                "description": "A rabbit with a playful personality."
+            },
+            {
+                "id": 292,
+                "name": "Pet-83",
+                "age": 13,
+                "species": "Rabbit",
+                "race": "Goldfish",
+                "owner": 22,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet88.jpg",
+                "description": "A fish with a energetic personality."
+            }
+        ]
+    },
+    {
+        "id": 23,
+        "name": "Emily Smith",
+        "age": 63,
+        "email": "emilysmith23@testmail.com",
+        "password": "securepassword23",
+        "role": "admin",
+        "status": "inactive",
+        "pets": [
+            {
+                "id": 501,
+                "name": "Pet-23",
+                "age": 14,
+                "species": "Fish",
+                "race": "Angora",
+                "owner": 23,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet93.jpg",
+                "description": "A fish with a playful personality."
+            }
+        ]
+    },
+    {
+        "id": 24,
+        "name": "Michael Brown",
+        "age": 54,
+        "email": "michaelbrown24@testmail.com",
+        "password": "securepassword24",
+        "role": "user",
+        "status": "active",
+        "pets": [
+            {
+                "id": 336,
+                "name": "Pet-49",
+                "age": 8,
+                "species": "Fish",
+                "race": "Goldfish",
+                "owner": 24,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet87.jpg",
+                "description": "A cat with a calm personality."
+            },
+            {
+                "id": 869,
+                "name": "Pet-40",
+                "age": 4,
+                "species": "Cat",
+                "race": "Persian",
+                "owner": 24,
+                "status": "active",
+                "profilePic": "https://example.com/pet99.jpg",
+                "description": "A fish with a playful personality."
+            },
+            {
+                "id": 46,
+                "name": "Pet-41",
+                "age": 2,
+                "species": "Rabbit",
+                "race": "Persian",
+                "owner": 24,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet13.jpg",
+                "description": "A cat with a playful personality."
+            }
+        ]
+    },
+    {
+        "id": 25,
+        "name": "Jessica Garcia",
+        "age": 59,
+        "email": "jessicagarcia25@mailinator.com",
+        "password": "securepassword25",
+        "role": "admin",
+        "status": "active",
+        "pets": [
+            {
+                "id": 938,
+                "name": "Pet-25",
+                "age": 2,
+                "species": "Cat",
+                "race": "Parakeet",
+                "owner": 25,
+                "status": "active",
+                "profilePic": "https://example.com/pet23.jpg",
+                "description": "A rabbit with a energetic personality."
+            },
+            {
+                "id": 204,
+                "name": "Pet-43",
+                "age": 11,
+                "species": "Dog",
+                "race": "Labrador",
+                "owner": 25,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet51.jpg",
+                "description": "A rabbit with a energetic personality."
+            },
+            {
+                "id": 528,
+                "name": "Pet-79",
+                "age": 11,
+                "species": "Cat",
+                "race": "Labrador",
+                "owner": 25,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet13.jpg",
+                "description": "A rabbit with a energetic personality."
+            }
+        ]
+    },
+    {
+        "id": 26,
+        "name": "Chris Williams",
+        "age": 28,
+        "email": "chriswilliams26@mailinator.com",
+        "password": "securepassword26",
+        "role": "user",
+        "status": "active",
+        "pets": [
+            {
+                "id": 312,
+                "name": "Pet-49",
+                "age": 8,
+                "species": "Rabbit",
+                "race": "Persian",
+                "owner": 26,
+                "status": "active",
+                "profilePic": "https://example.com/pet98.jpg",
+                "description": "A dog with a playful personality."
+            },
+            {
+                "id": 665,
+                "name": "Pet-82",
+                "age": 6,
+                "species": "Cat",
+                "race": "Angora",
+                "owner": 26,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet26.jpg",
+                "description": "A fish with a calm personality."
+            },
+            {
+                "id": 194,
+                "name": "Pet-83",
+                "age": 7,
+                "species": "Bird",
+                "race": "Angora",
+                "owner": 26,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet55.jpg",
+                "description": "A fish with a playful personality."
+            }
+        ]
+    },
+    {
+        "id": 27,
+        "name": "John Doe",
+        "age": 54,
+        "email": "johndoe27@testmail.com",
+        "password": "securepassword27",
+        "role": "user",
+        "status": "active",
+        "pets": [
+            {
+                "id": 622,
+                "name": "Pet-71",
+                "age": 7,
+                "species": "Rabbit",
+                "race": "Labrador",
+                "owner": 27,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet97.jpg",
+                "description": "A fish with a playful personality."
+            },
+            {
+                "id": 509,
+                "name": "Pet-42",
+                "age": 3,
+                "species": "Fish",
+                "race": "Labrador",
+                "owner": 27,
+                "status": "active",
+                "profilePic": "https://example.com/pet65.jpg",
+                "description": "A fish with a friendly personality."
+            }
+        ]
+    },
+    {
+        "id": 28,
+        "name": "David Brown",
+        "age": 41,
+        "email": "davidbrown28@mailinator.com",
+        "password": "securepassword28",
+        "role": "admin",
+        "status": "active",
+        "pets": [
+            {
+                "id": 919,
+                "name": "Pet-90",
+                "age": 14,
+                "species": "Dog",
+                "race": "Parakeet",
+                "owner": 28,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet4.jpg",
+                "description": "A dog with a energetic personality."
+            },
+            {
+                "id": 190,
+                "name": "Pet-74",
+                "age": 2,
+                "species": "Bird",
+                "race": "Angora",
+                "owner": 28,
+                "status": "active",
+                "profilePic": "https://example.com/pet72.jpg",
+                "description": "A fish with a friendly personality."
+            }
+        ]
+    },
+    {
+        "id": 29,
+        "name": "Sarah Martinez",
+        "age": 30,
+        "email": "sarahmartinez29@testmail.com",
+        "password": "securepassword29",
+        "role": "user",
+        "status": "inactive",
+        "pets": [
+            {
+                "id": 195,
+                "name": "Pet-94",
+                "age": 12,
+                "species": "Dog",
+                "race": "Persian",
+                "owner": 29,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet36.jpg",
+                "description": "A bird with a playful personality."
+            }
+        ]
+    },
+    {
+        "id": 30,
+        "name": "Michael Brown",
+        "age": 43,
+        "email": "michaelbrown30@example.com",
+        "password": "securepassword30",
+        "role": "user",
+        "status": "inactive",
+        "pets": [
+            {
+                "id": 278,
+                "name": "Pet-36",
+                "age": 15,
+                "species": "Bird",
+                "race": "Parakeet",
+                "owner": 30,
+                "status": "active",
+                "profilePic": "https://example.com/pet64.jpg",
+                "description": "A bird with a energetic personality."
+            }
+        ]
+    },
+    {
+        "id": 31,
+        "name": "John Williams",
+        "age": 52,
+        "email": "johnwilliams31@example.com",
+        "password": "securepassword31",
+        "role": "admin",
+        "status": "inactive",
+        "pets": [
+            {
+                "id": 928,
+                "name": "Pet-23",
+                "age": 14,
+                "species": "Rabbit",
+                "race": "Goldfish",
+                "owner": 31,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet5.jpg",
+                "description": "A bird with a energetic personality."
+            },
+            {
+                "id": 163,
+                "name": "Pet-26",
+                "age": 8,
+                "species": "Dog",
+                "race": "Angora",
+                "owner": 31,
+                "status": "active",
+                "profilePic": "https://example.com/pet17.jpg",
+                "description": "A bird with a friendly personality."
+            }
+        ]
+    },
+    {
+        "id": 32,
+        "name": "Sarah Williams",
+        "age": 28,
+        "email": "sarahwilliams32@example.com",
+        "password": "securepassword32",
+        "role": "admin",
+        "status": "inactive",
+        "pets": [
+            {
+                "id": 545,
+                "name": "Pet-60",
+                "age": 1,
+                "species": "Bird",
+                "race": "Goldfish",
+                "owner": 32,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet92.jpg",
+                "description": "A fish with a friendly personality."
+            },
+            {
+                "id": 552,
+                "name": "Pet-4",
+                "age": 5,
+                "species": "Cat",
+                "race": "Persian",
+                "owner": 32,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet35.jpg",
+                "description": "A cat with a calm personality."
+            }
+        ]
+    },
+    {
+        "id": 33,
+        "name": "Michael Johnson",
+        "age": 50,
+        "email": "michaeljohnson33@testmail.com",
+        "password": "securepassword33",
+        "role": "admin",
+        "status": "active",
+        "pets": [
+            {
+                "id": 160,
+                "name": "Pet-23",
+                "age": 3,
+                "species": "Fish",
+                "race": "Angora",
+                "owner": 33,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet92.jpg",
+                "description": "A dog with a friendly personality."
+            }
+        ]
+    },
+    {
+        "id": 34,
+        "name": "John Doe",
+        "age": 34,
+        "email": "johndoe34@example.com",
+        "password": "securepassword34",
+        "role": "user",
+        "status": "active",
+        "pets": [
+            {
+                "id": 806,
+                "name": "Pet-59",
+                "age": 12,
+                "species": "Dog",
+                "race": "Angora",
+                "owner": 34,
+                "status": "active",
+                "profilePic": "https://example.com/pet24.jpg",
+                "description": "A cat with a friendly personality."
+            },
+            {
+                "id": 707,
+                "name": "Pet-29",
+                "age": 1,
+                "species": "Cat",
+                "race": "Goldfish",
+                "owner": 34,
+                "status": "active",
+                "profilePic": "https://example.com/pet6.jpg",
+                "description": "A dog with a playful personality."
+            }
+        ]
+    },
+    {
+        "id": 35,
+        "name": "Sarah Smith",
+        "age": 55,
+        "email": "sarahsmith35@example.com",
+        "password": "securepassword35",
+        "role": "admin",
+        "status": "inactive",
+        "pets": [
+            {
+                "id": 415,
+                "name": "Pet-9",
+                "age": 9,
+                "species": "Bird",
+                "race": "Labrador",
+                "owner": 35,
+                "status": "active",
+                "profilePic": "https://example.com/pet12.jpg",
+                "description": "A bird with a calm personality."
+            },
+            {
+                "id": 159,
+                "name": "Pet-78",
+                "age": 15,
+                "species": "Fish",
+                "race": "Parakeet",
+                "owner": 35,
+                "status": "active",
+                "profilePic": "https://example.com/pet68.jpg",
+                "description": "A fish with a energetic personality."
+            },
+            {
+                "id": 939,
+                "name": "Pet-77",
+                "age": 6,
+                "species": "Dog",
+                "race": "Parakeet",
+                "owner": 35,
+                "status": "active",
+                "profilePic": "https://example.com/pet59.jpg",
+                "description": "A dog with a calm personality."
+            }
+        ]
+    },
+    {
+        "id": 36,
+        "name": "Chris Jones",
+        "age": 63,
+        "email": "chrisjones36@example.com",
+        "password": "securepassword36",
+        "role": "admin",
+        "status": "inactive",
+        "pets": [
+            {
+                "id": 431,
+                "name": "Pet-22",
+                "age": 1,
+                "species": "Rabbit",
+                "race": "Labrador",
+                "owner": 36,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet2.jpg",
+                "description": "A fish with a friendly personality."
+            },
+            {
+                "id": 209,
+                "name": "Pet-55",
+                "age": 12,
+                "species": "Rabbit",
+                "race": "Goldfish",
+                "owner": 36,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet41.jpg",
+                "description": "A fish with a playful personality."
+            },
+            {
+                "id": 719,
+                "name": "Pet-96",
+                "age": 7,
+                "species": "Cat",
+                "race": "Goldfish",
+                "owner": 36,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet7.jpg",
+                "description": "A fish with a playful personality."
+            }
+        ]
+    },
+    {
+        "id": 37,
+        "name": "Jessica Garcia",
+        "age": 50,
+        "email": "jessicagarcia37@example.com",
+        "password": "securepassword37",
+        "role": "admin",
+        "status": "active",
+        "pets": [
+            {
+                "id": 799,
+                "name": "Pet-98",
+                "age": 15,
+                "species": "Fish",
+                "race": "Goldfish",
+                "owner": 37,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet65.jpg",
+                "description": "A bird with a friendly personality."
+            }
+        ]
+    },
+    {
+        "id": 38,
+        "name": "John Garcia",
+        "age": 25,
+        "email": "johngarcia38@example.com",
+        "password": "securepassword38",
+        "role": "user",
+        "status": "active",
+        "pets": [
+            {
+                "id": 466,
+                "name": "Pet-61",
+                "age": 6,
+                "species": "Rabbit",
+                "race": "Persian",
+                "owner": 38,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet80.jpg",
+                "description": "A rabbit with a friendly personality."
+            },
+            {
+                "id": 645,
+                "name": "Pet-5",
+                "age": 9,
+                "species": "Fish",
+                "race": "Goldfish",
+                "owner": 38,
+                "status": "active",
+                "profilePic": "https://example.com/pet96.jpg",
+                "description": "A fish with a energetic personality."
+            }
+        ]
+    },
+    {
+        "id": 39,
+        "name": "Sarah Martinez",
+        "age": 51,
+        "email": "sarahmartinez39@example.com",
+        "password": "securepassword39",
+        "role": "admin",
+        "status": "inactive",
+        "pets": [
+            {
+                "id": 185,
+                "name": "Pet-94",
+                "age": 4,
+                "species": "Dog",
+                "race": "Angora",
+                "owner": 39,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet96.jpg",
+                "description": "A cat with a friendly personality."
+            }
+        ]
+    },
+    {
+        "id": 40,
+        "name": "Jessica Garcia",
+        "age": 44,
+        "email": "jessicagarcia40@testmail.com",
+        "password": "securepassword40",
+        "role": "user",
+        "status": "inactive",
+        "pets": [
+            {
+                "id": 720,
+                "name": "Pet-27",
+                "age": 5,
+                "species": "Fish",
+                "race": "Labrador",
+                "owner": 40,
+                "status": "active",
+                "profilePic": "https://example.com/pet90.jpg",
+                "description": "A dog with a calm personality."
+            },
+            {
+                "id": 859,
+                "name": "Pet-99",
+                "age": 13,
+                "species": "Dog",
+                "race": "Labrador",
+                "owner": 40,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet11.jpg",
+                "description": "A cat with a playful personality."
+            },
+            {
+                "id": 750,
+                "name": "Pet-98",
+                "age": 12,
+                "species": "Cat",
+                "race": "Persian",
+                "owner": 40,
+                "status": "active",
+                "profilePic": "https://example.com/pet75.jpg",
+                "description": "A fish with a energetic personality."
+            }
+        ]
+    },
+    {
+        "id": 41,
+        "name": "Chris Williams",
+        "age": 52,
+        "email": "chriswilliams41@mailinator.com",
+        "password": "securepassword41",
+        "role": "user",
+        "status": "active",
+        "pets": [
+            {
+                "id": 783,
+                "name": "Pet-89",
+                "age": 4,
+                "species": "Dog",
+                "race": "Angora",
+                "owner": 41,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet28.jpg",
+                "description": "A bird with a playful personality."
+            },
+            {
+                "id": 159,
+                "name": "Pet-35",
+                "age": 15,
+                "species": "Fish",
+                "race": "Angora",
+                "owner": 41,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet81.jpg",
+                "description": "A bird with a calm personality."
+            },
+            {
+                "id": 488,
+                "name": "Pet-17",
+                "age": 8,
+                "species": "Rabbit",
+                "race": "Angora",
+                "owner": 41,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet22.jpg",
+                "description": "A dog with a playful personality."
+            }
+        ]
+    },
+    {
+        "id": 42,
+        "name": "Sarah Brown",
+        "age": 20,
+        "email": "sarahbrown42@example.com",
+        "password": "securepassword42",
+        "role": "user",
+        "status": "inactive",
+        "pets": [
+            {
+                "id": 746,
+                "name": "Pet-2",
+                "age": 5,
+                "species": "Rabbit",
+                "race": "Goldfish",
+                "owner": 42,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet76.jpg",
+                "description": "A dog with a energetic personality."
+            },
+            {
+                "id": 163,
+                "name": "Pet-87",
+                "age": 2,
+                "species": "Rabbit",
+                "race": "Parakeet",
+                "owner": 42,
+                "status": "active",
+                "profilePic": "https://example.com/pet24.jpg",
+                "description": "A fish with a calm personality."
+            },
+            {
+                "id": 101,
+                "name": "Pet-97",
+                "age": 8,
+                "species": "Dog",
+                "race": "Persian",
+                "owner": 42,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet86.jpg",
+                "description": "A cat with a friendly personality."
+            }
+        ]
+    },
+    {
+        "id": 43,
+        "name": "Jane Garcia",
+        "age": 53,
+        "email": "janegarcia43@example.com",
+        "password": "securepassword43",
+        "role": "user",
+        "status": "active",
+        "pets": [
+            {
+                "id": 568,
+                "name": "Pet-30",
+                "age": 12,
+                "species": "Cat",
+                "race": "Labrador",
+                "owner": 43,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet90.jpg",
+                "description": "A bird with a calm personality."
+            }
+        ]
+    },
+    {
+        "id": 44,
+        "name": "Sarah Smith",
+        "age": 57,
+        "email": "sarahsmith44@example.com",
+        "password": "securepassword44",
+        "role": "user",
+        "status": "inactive",
+        "pets": [
+            {
+                "id": 768,
+                "name": "Pet-87",
+                "age": 14,
+                "species": "Dog",
+                "race": "Persian",
+                "owner": 44,
+                "status": "active",
+                "profilePic": "https://example.com/pet16.jpg",
+                "description": "A bird with a energetic personality."
+            },
+            {
+                "id": 246,
+                "name": "Pet-57",
+                "age": 11,
+                "species": "Dog",
+                "race": "Parakeet",
+                "owner": 44,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet39.jpg",
+                "description": "A cat with a friendly personality."
+            }
+        ]
+    },
+    {
+        "id": 45,
+        "name": "John Garcia",
+        "age": 64,
+        "email": "johngarcia45@testmail.com",
+        "password": "securepassword45",
+        "role": "user",
+        "status": "inactive",
+        "pets": [
+            {
+                "id": 140,
+                "name": "Pet-81",
+                "age": 4,
+                "species": "Rabbit",
+                "race": "Parakeet",
+                "owner": 45,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet69.jpg",
+                "description": "A dog with a playful personality."
+            }
+        ]
+    },
+    {
+        "id": 46,
+        "name": "Jessica Smith",
+        "age": 40,
+        "email": "jessicasmith46@mailinator.com",
+        "password": "securepassword46",
+        "role": "user",
+        "status": "inactive",
+        "pets": [
+            {
+                "id": 403,
+                "name": "Pet-78",
+                "age": 3,
+                "species": "Fish",
+                "race": "Goldfish",
+                "owner": 46,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet82.jpg",
+                "description": "A rabbit with a calm personality."
+            },
+            {
+                "id": 354,
+                "name": "Pet-53",
+                "age": 2,
+                "species": "Fish",
+                "race": "Persian",
+                "owner": 46,
+                "status": "active",
+                "profilePic": "https://example.com/pet100.jpg",
+                "description": "A rabbit with a friendly personality."
+            }
+        ]
+    },
+    {
+        "id": 47,
+        "name": "David Williams",
+        "age": 19,
+        "email": "davidwilliams47@example.com",
+        "password": "securepassword47",
+        "role": "user",
+        "status": "inactive",
+        "pets": [
+            {
+                "id": 823,
+                "name": "Pet-44",
+                "age": 5,
+                "species": "Dog",
+                "race": "Angora",
+                "owner": 47,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet52.jpg",
+                "description": "A bird with a energetic personality."
+            },
+            {
+                "id": 600,
+                "name": "Pet-88",
+                "age": 6,
+                "species": "Dog",
+                "race": "Labrador",
+                "owner": 47,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet51.jpg",
+                "description": "A rabbit with a energetic personality."
+            }
+        ]
+    },
+    {
+        "id": 48,
+        "name": "David Garcia",
+        "age": 42,
+        "email": "davidgarcia48@testmail.com",
+        "password": "securepassword48",
+        "role": "admin",
+        "status": "inactive",
+        "pets": [
+            {
+                "id": 719,
+                "name": "Pet-94",
+                "age": 15,
+                "species": "Dog",
+                "race": "Persian",
+                "owner": 48,
+                "status": "active",
+                "profilePic": "https://example.com/pet10.jpg",
+                "description": "A dog with a friendly personality."
+            },
+            {
+                "id": 215,
+                "name": "Pet-64",
+                "age": 3,
+                "species": "Rabbit",
+                "race": "Angora",
+                "owner": 48,
+                "status": "active",
+                "profilePic": "https://example.com/pet19.jpg",
+                "description": "A fish with a calm personality."
+            }
+        ]
+    },
+    {
+        "id": 49,
+        "name": "John Martinez",
+        "age": 57,
+        "email": "johnmartinez49@testmail.com",
+        "password": "securepassword49",
+        "role": "admin",
+        "status": "inactive",
+        "pets": [
+            {
+                "id": 382,
+                "name": "Pet-1",
+                "age": 6,
+                "species": "Dog",
+                "race": "Parakeet",
+                "owner": 49,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet89.jpg",
+                "description": "A fish with a calm personality."
+            }
+        ]
+    },
+    {
+        "id": 50,
+        "name": "Emily Williams",
+        "age": 46,
+        "email": "emilywilliams50@example.com",
+        "password": "securepassword50",
+        "role": "admin",
+        "status": "active",
+        "pets": [
+            {
+                "id": 532,
+                "name": "Pet-86",
+                "age": 1,
+                "species": "Fish",
+                "race": "Goldfish",
+                "owner": 50,
+                "status": "active",
+                "profilePic": "https://example.com/pet83.jpg",
+                "description": "A fish with a energetic personality."
+            }
+        ]
+    },
+    {
+        "id": 51,
+        "name": "Michael Doe",
+        "age": 46,
+        "email": "michaeldoe51@testmail.com",
+        "password": "securepassword51",
+        "role": "admin",
+        "status": "active",
+        "pets": [
+            {
+                "id": 704,
+                "name": "Pet-3",
+                "age": 10,
+                "species": "Cat",
+                "race": "Parakeet",
+                "owner": 51,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet45.jpg",
+                "description": "A fish with a playful personality."
+            },
+            {
+                "id": 1,
+                "name": "Pet-65",
+                "age": 13,
+                "species": "Fish",
+                "race": "Labrador",
+                "owner": 51,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet53.jpg",
+                "description": "A dog with a energetic personality."
+            }
+        ]
+    },
+    {
+        "id": 52,
+        "name": "Emily Williams",
+        "age": 38,
+        "email": "emilywilliams52@testmail.com",
+        "password": "securepassword52",
+        "role": "admin",
+        "status": "inactive",
+        "pets": [
+            {
+                "id": 373,
+                "name": "Pet-52",
+                "age": 6,
+                "species": "Cat",
+                "race": "Parakeet",
+                "owner": 52,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet36.jpg",
+                "description": "A rabbit with a playful personality."
+            }
+        ]
+    },
+    {
+        "id": 53,
+        "name": "Michael Jones",
+        "age": 21,
+        "email": "michaeljones53@testmail.com",
+        "password": "securepassword53",
+        "role": "user",
+        "status": "inactive",
+        "pets": [
+            {
+                "id": 950,
+                "name": "Pet-51",
+                "age": 1,
+                "species": "Fish",
+                "race": "Persian",
+                "owner": 53,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet100.jpg",
+                "description": "A fish with a energetic personality."
+            },
+            {
+                "id": 590,
+                "name": "Pet-31",
+                "age": 5,
+                "species": "Cat",
+                "race": "Labrador",
+                "owner": 53,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet72.jpg",
+                "description": "A dog with a friendly personality."
+            },
+            {
+                "id": 187,
+                "name": "Pet-21",
+                "age": 13,
+                "species": "Fish",
+                "race": "Persian",
+                "owner": 53,
+                "status": "active",
+                "profilePic": "https://example.com/pet30.jpg",
+                "description": "A cat with a calm personality."
+            }
+        ]
+    },
+    {
+        "id": 54,
+        "name": "Michael Doe",
+        "age": 21,
+        "email": "michaeldoe54@example.com",
+        "password": "securepassword54",
+        "role": "admin",
+        "status": "active",
+        "pets": [
+            {
+                "id": 539,
+                "name": "Pet-33",
+                "age": 7,
+                "species": "Fish",
+                "race": "Labrador",
+                "owner": 54,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet30.jpg",
+                "description": "A rabbit with a energetic personality."
+            },
+            {
+                "id": 919,
+                "name": "Pet-26",
+                "age": 4,
+                "species": "Rabbit",
+                "race": "Persian",
+                "owner": 54,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet87.jpg",
+                "description": "A rabbit with a playful personality."
+            }
+        ]
+    },
+    {
+        "id": 55,
+        "name": "Michael Jones",
+        "age": 37,
+        "email": "michaeljones55@example.com",
+        "password": "securepassword55",
+        "role": "admin",
+        "status": "active",
+        "pets": [
+            {
+                "id": 109,
+                "name": "Pet-82",
+                "age": 9,
+                "species": "Fish",
+                "race": "Goldfish",
+                "owner": 55,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet20.jpg",
+                "description": "A fish with a playful personality."
+            },
+            {
+                "id": 227,
+                "name": "Pet-100",
+                "age": 14,
+                "species": "Dog",
+                "race": "Goldfish",
+                "owner": 55,
+                "status": "active",
+                "profilePic": "https://example.com/pet66.jpg",
+                "description": "A rabbit with a energetic personality."
+            }
+        ]
+    },
+    {
+        "id": 56,
+        "name": "Emily Jones",
+        "age": 26,
+        "email": "emilyjones56@mailinator.com",
+        "password": "securepassword56",
+        "role": "admin",
+        "status": "inactive",
+        "pets": [
+            {
+                "id": 452,
+                "name": "Pet-7",
+                "age": 12,
+                "species": "Cat",
+                "race": "Labrador",
+                "owner": 56,
+                "status": "active",
+                "profilePic": "https://example.com/pet18.jpg",
+                "description": "A dog with a friendly personality."
+            },
+            {
+                "id": 763,
+                "name": "Pet-32",
+                "age": 4,
+                "species": "Cat",
+                "race": "Persian",
+                "owner": 56,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet97.jpg",
+                "description": "A dog with a energetic personality."
+            }
+        ]
+    },
+    {
+        "id": 57,
+        "name": "David Brown",
+        "age": 29,
+        "email": "davidbrown57@mailinator.com",
+        "password": "securepassword57",
+        "role": "user",
+        "status": "inactive",
+        "pets": [
+            {
+                "id": 987,
+                "name": "Pet-84",
+                "age": 12,
+                "species": "Bird",
+                "race": "Labrador",
+                "owner": 57,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet95.jpg",
+                "description": "A fish with a friendly personality."
+            },
+            {
+                "id": 345,
+                "name": "Pet-86",
+                "age": 13,
+                "species": "Bird",
+                "race": "Angora",
+                "owner": 57,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet45.jpg",
+                "description": "A rabbit with a friendly personality."
+            },
+            {
+                "id": 448,
+                "name": "Pet-45",
+                "age": 9,
+                "species": "Rabbit",
+                "race": "Parakeet",
+                "owner": 57,
+                "status": "active",
+                "profilePic": "https://example.com/pet52.jpg",
+                "description": "A fish with a energetic personality."
+            }
+        ]
+    },
+    {
+        "id": 58,
+        "name": "Michael Jones",
+        "age": 62,
+        "email": "michaeljones58@mailinator.com",
+        "password": "securepassword58",
+        "role": "user",
+        "status": "inactive",
+        "pets": [
+            {
+                "id": 791,
+                "name": "Pet-57",
+                "age": 4,
+                "species": "Fish",
+                "race": "Goldfish",
+                "owner": 58,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet25.jpg",
+                "description": "A cat with a playful personality."
+            },
+            {
+                "id": 788,
+                "name": "Pet-34",
+                "age": 6,
+                "species": "Dog",
+                "race": "Goldfish",
+                "owner": 58,
+                "status": "active",
+                "profilePic": "https://example.com/pet84.jpg",
+                "description": "A bird with a calm personality."
+            },
+            {
+                "id": 733,
+                "name": "Pet-99",
+                "age": 10,
+                "species": "Rabbit",
+                "race": "Labrador",
+                "owner": 58,
+                "status": "active",
+                "profilePic": "https://example.com/pet13.jpg",
+                "description": "A rabbit with a energetic personality."
+            }
+        ]
+    },
+    {
+        "id": 59,
+        "name": "Chris Martinez",
+        "age": 29,
+        "email": "chrismartinez59@example.com",
+        "password": "securepassword59",
+        "role": "admin",
+        "status": "active",
+        "pets": [
+            {
+                "id": 528,
+                "name": "Pet-11",
+                "age": 5,
+                "species": "Cat",
+                "race": "Parakeet",
+                "owner": 59,
+                "status": "active",
+                "profilePic": "https://example.com/pet11.jpg",
+                "description": "A dog with a playful personality."
+            },
+            {
+                "id": 488,
+                "name": "Pet-80",
+                "age": 15,
+                "species": "Dog",
+                "race": "Goldfish",
+                "owner": 59,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet91.jpg",
+                "description": "A cat with a energetic personality."
+            }
+        ]
+    },
+    {
+        "id": 60,
+        "name": "Michael Smith",
+        "age": 19,
+        "email": "michaelsmith60@mailinator.com",
+        "password": "securepassword60",
+        "role": "admin",
+        "status": "active",
+        "pets": [
+            {
+                "id": 915,
+                "name": "Pet-16",
+                "age": 11,
+                "species": "Dog",
+                "race": "Persian",
+                "owner": 60,
+                "status": "active",
+                "profilePic": "https://example.com/pet48.jpg",
+                "description": "A bird with a friendly personality."
+            },
+            {
+                "id": 22,
+                "name": "Pet-38",
+                "age": 11,
+                "species": "Cat",
+                "race": "Persian",
+                "owner": 60,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet75.jpg",
+                "description": "A cat with a friendly personality."
+            },
+            {
+                "id": 303,
+                "name": "Pet-18",
+                "age": 6,
+                "species": "Cat",
+                "race": "Goldfish",
+                "owner": 60,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet25.jpg",
+                "description": "A rabbit with a playful personality."
+            }
+        ]
+    },
+    {
+        "id": 61,
+        "name": "Jessica Smith",
+        "age": 31,
+        "email": "jessicasmith61@mailinator.com",
+        "password": "securepassword61",
+        "role": "admin",
+        "status": "inactive",
+        "pets": [
+            {
+                "id": 850,
+                "name": "Pet-62",
+                "age": 3,
+                "species": "Rabbit",
+                "race": "Labrador",
+                "owner": 61,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet26.jpg",
+                "description": "A bird with a friendly personality."
+            }
+        ]
+    },
+    {
+        "id": 62,
+        "name": "Michael Brown",
+        "age": 38,
+        "email": "michaelbrown62@mailinator.com",
+        "password": "securepassword62",
+        "role": "user",
+        "status": "inactive",
+        "pets": [
+            {
+                "id": 885,
+                "name": "Pet-28",
+                "age": 9,
+                "species": "Dog",
+                "race": "Persian",
+                "owner": 62,
+                "status": "active",
+                "profilePic": "https://example.com/pet88.jpg",
+                "description": "A bird with a playful personality."
+            },
+            {
+                "id": 899,
+                "name": "Pet-63",
+                "age": 7,
+                "species": "Rabbit",
+                "race": "Parakeet",
+                "owner": 62,
+                "status": "active",
+                "profilePic": "https://example.com/pet28.jpg",
+                "description": "A bird with a calm personality."
+            }
+        ]
+    },
+    {
+        "id": 63,
+        "name": "Jane Doe",
+        "age": 28,
+        "email": "janedoe63@testmail.com",
+        "password": "securepassword63",
+        "role": "user",
+        "status": "active",
+        "pets": [
+            {
+                "id": 279,
+                "name": "Pet-82",
+                "age": 11,
+                "species": "Cat",
+                "race": "Angora",
+                "owner": 63,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet38.jpg",
+                "description": "A bird with a playful personality."
+            },
+            {
+                "id": 266,
+                "name": "Pet-47",
+                "age": 2,
+                "species": "Fish",
+                "race": "Goldfish",
+                "owner": 63,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet55.jpg",
+                "description": "A fish with a energetic personality."
+            }
+        ]
+    },
+    {
+        "id": 64,
+        "name": "John Garcia",
+        "age": 43,
+        "email": "johngarcia64@example.com",
+        "password": "securepassword64",
+        "role": "user",
+        "status": "inactive",
+        "pets": [
+            {
+                "id": 843,
+                "name": "Pet-88",
+                "age": 9,
+                "species": "Fish",
+                "race": "Labrador",
+                "owner": 64,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet43.jpg",
+                "description": "A dog with a friendly personality."
+            }
+        ]
+    },
+    {
+        "id": 65,
+        "name": "John Garcia",
+        "age": 46,
+        "email": "johngarcia65@example.com",
+        "password": "securepassword65",
+        "role": "admin",
+        "status": "inactive",
+        "pets": [
+            {
+                "id": 19,
+                "name": "Pet-44",
+                "age": 15,
+                "species": "Dog",
+                "race": "Labrador",
+                "owner": 65,
+                "status": "active",
+                "profilePic": "https://example.com/pet12.jpg",
+                "description": "A dog with a friendly personality."
+            },
+            {
+                "id": 868,
+                "name": "Pet-75",
+                "age": 3,
+                "species": "Dog",
+                "race": "Parakeet",
+                "owner": 65,
+                "status": "active",
+                "profilePic": "https://example.com/pet85.jpg",
+                "description": "A dog with a energetic personality."
+            }
+        ]
+    },
+    {
+        "id": 66,
+        "name": "John Jones",
+        "age": 50,
+        "email": "johnjones66@testmail.com",
+        "password": "securepassword66",
+        "role": "admin",
+        "status": "inactive",
+        "pets": [
+            {
+                "id": 641,
+                "name": "Pet-41",
+                "age": 15,
+                "species": "Dog",
+                "race": "Angora",
+                "owner": 66,
+                "status": "active",
+                "profilePic": "https://example.com/pet16.jpg",
+                "description": "A cat with a calm personality."
+            }
+        ]
+    },
+    {
+        "id": 67,
+        "name": "Emily Martinez",
+        "age": 47,
+        "email": "emilymartinez67@mailinator.com",
+        "password": "securepassword67",
+        "role": "admin",
+        "status": "active",
+        "pets": [
+            {
+                "id": 293,
+                "name": "Pet-78",
+                "age": 12,
+                "species": "Cat",
+                "race": "Parakeet",
+                "owner": 67,
+                "status": "active",
+                "profilePic": "https://example.com/pet74.jpg",
+                "description": "A fish with a playful personality."
+            },
+            {
+                "id": 916,
+                "name": "Pet-51",
+                "age": 4,
+                "species": "Fish",
+                "race": "Persian",
+                "owner": 67,
+                "status": "active",
+                "profilePic": "https://example.com/pet64.jpg",
+                "description": "A dog with a playful personality."
+            }
+        ]
+    },
+    {
+        "id": 68,
+        "name": "Michael Smith",
+        "age": 27,
+        "email": "michaelsmith68@testmail.com",
+        "password": "securepassword68",
+        "role": "user",
+        "status": "inactive",
+        "pets": [
+            {
+                "id": 270,
+                "name": "Pet-70",
+                "age": 13,
+                "species": "Rabbit",
+                "race": "Labrador",
+                "owner": 68,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet40.jpg",
+                "description": "A fish with a energetic personality."
+            },
+            {
+                "id": 566,
+                "name": "Pet-52",
+                "age": 14,
+                "species": "Cat",
+                "race": "Parakeet",
+                "owner": 68,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet51.jpg",
+                "description": "A fish with a friendly personality."
+            },
+            {
+                "id": 209,
+                "name": "Pet-24",
+                "age": 4,
+                "species": "Rabbit",
+                "race": "Angora",
+                "owner": 68,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet93.jpg",
+                "description": "A cat with a friendly personality."
+            }
+        ]
+    },
+    {
+        "id": 69,
+        "name": "Michael Johnson",
+        "age": 45,
+        "email": "michaeljohnson69@example.com",
+        "password": "securepassword69",
+        "role": "admin",
+        "status": "active",
+        "pets": [
+            {
+                "id": 722,
+                "name": "Pet-47",
+                "age": 7,
+                "species": "Rabbit",
+                "race": "Angora",
+                "owner": 69,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet78.jpg",
+                "description": "A cat with a playful personality."
+            },
+            {
+                "id": 846,
+                "name": "Pet-2",
+                "age": 4,
+                "species": "Fish",
+                "race": "Persian",
+                "owner": 69,
+                "status": "active",
+                "profilePic": "https://example.com/pet69.jpg",
+                "description": "A bird with a energetic personality."
+            }
+        ]
+    },
+    {
+        "id": 70,
+        "name": "Michael Brown",
+        "age": 23,
+        "email": "michaelbrown70@mailinator.com",
+        "password": "securepassword70",
+        "role": "admin",
+        "status": "active",
+        "pets": [
+            {
+                "id": 115,
+                "name": "Pet-12",
+                "age": 12,
+                "species": "Rabbit",
+                "race": "Goldfish",
+                "owner": 70,
+                "status": "active",
+                "profilePic": "https://example.com/pet72.jpg",
+                "description": "A rabbit with a calm personality."
+            },
+            {
+                "id": 505,
+                "name": "Pet-17",
+                "age": 10,
+                "species": "Dog",
+                "race": "Labrador",
+                "owner": 70,
+                "status": "active",
+                "profilePic": "https://example.com/pet99.jpg",
+                "description": "A cat with a friendly personality."
+            }
+        ]
+    },
+    {
+        "id": 71,
+        "name": "Jessica Smith",
+        "age": 52,
+        "email": "jessicasmith71@example.com",
+        "password": "securepassword71",
+        "role": "user",
+        "status": "active",
+        "pets": [
+            {
+                "id": 166,
+                "name": "Pet-74",
+                "age": 11,
+                "species": "Cat",
+                "race": "Angora",
+                "owner": 71,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet77.jpg",
+                "description": "A rabbit with a calm personality."
+            },
+            {
+                "id": 290,
+                "name": "Pet-67",
+                "age": 14,
+                "species": "Rabbit",
+                "race": "Labrador",
+                "owner": 71,
+                "status": "active",
+                "profilePic": "https://example.com/pet69.jpg",
+                "description": "A dog with a energetic personality."
+            }
+        ]
+    },
+    {
+        "id": 72,
+        "name": "Jane Garcia",
+        "age": 37,
+        "email": "janegarcia72@mailinator.com",
+        "password": "securepassword72",
+        "role": "user",
+        "status": "active",
+        "pets": [
+            {
+                "id": 978,
+                "name": "Pet-72",
+                "age": 12,
+                "species": "Bird",
+                "race": "Angora",
+                "owner": 72,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet38.jpg",
+                "description": "A cat with a friendly personality."
+            }
+        ]
+    },
+    {
+        "id": 73,
+        "name": "Emily Jones",
+        "age": 28,
+        "email": "emilyjones73@mailinator.com",
+        "password": "securepassword73",
+        "role": "user",
+        "status": "active",
+        "pets": [
+            {
+                "id": 354,
+                "name": "Pet-63",
+                "age": 1,
+                "species": "Dog",
+                "race": "Labrador",
+                "owner": 73,
+                "status": "active",
+                "profilePic": "https://example.com/pet8.jpg",
+                "description": "A cat with a friendly personality."
+            },
+            {
+                "id": 91,
+                "name": "Pet-39",
+                "age": 2,
+                "species": "Fish",
+                "race": "Parakeet",
+                "owner": 73,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet72.jpg",
+                "description": "A bird with a energetic personality."
+            }
+        ]
+    },
+    {
+        "id": 74,
+        "name": "John Jones",
+        "age": 62,
+        "email": "johnjones74@testmail.com",
+        "password": "securepassword74",
+        "role": "user",
+        "status": "active",
+        "pets": [
+            {
+                "id": 974,
+                "name": "Pet-86",
+                "age": 12,
+                "species": "Cat",
+                "race": "Angora",
+                "owner": 74,
+                "status": "active",
+                "profilePic": "https://example.com/pet55.jpg",
+                "description": "A bird with a playful personality."
+            },
+            {
+                "id": 57,
+                "name": "Pet-29",
+                "age": 9,
+                "species": "Rabbit",
+                "race": "Persian",
+                "owner": 74,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet61.jpg",
+                "description": "A dog with a playful personality."
+            }
+        ]
+    },
+    {
+        "id": 75,
+        "name": "Michael Johnson",
+        "age": 26,
+        "email": "michaeljohnson75@testmail.com",
+        "password": "securepassword75",
+        "role": "admin",
+        "status": "active",
+        "pets": [
+            {
+                "id": 308,
+                "name": "Pet-71",
+                "age": 13,
+                "species": "Fish",
+                "race": "Angora",
+                "owner": 75,
+                "status": "active",
+                "profilePic": "https://example.com/pet51.jpg",
+                "description": "A rabbit with a energetic personality."
+            },
+            {
+                "id": 176,
+                "name": "Pet-45",
+                "age": 1,
+                "species": "Bird",
+                "race": "Persian",
+                "owner": 75,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet54.jpg",
+                "description": "A dog with a playful personality."
+            }
+        ]
+    },
+    {
+        "id": 76,
+        "name": "Emily Jones",
+        "age": 23,
+        "email": "emilyjones76@testmail.com",
+        "password": "securepassword76",
+        "role": "user",
+        "status": "inactive",
+        "pets": [
+            {
+                "id": 861,
+                "name": "Pet-28",
+                "age": 8,
+                "species": "Rabbit",
+                "race": "Persian",
+                "owner": 76,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet76.jpg",
+                "description": "A dog with a calm personality."
+            },
+            {
+                "id": 96,
+                "name": "Pet-69",
+                "age": 8,
+                "species": "Fish",
+                "race": "Angora",
+                "owner": 76,
+                "status": "active",
+                "profilePic": "https://example.com/pet42.jpg",
+                "description": "A rabbit with a calm personality."
+            },
+            {
+                "id": 710,
+                "name": "Pet-32",
+                "age": 3,
+                "species": "Bird",
+                "race": "Persian",
+                "owner": 76,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet85.jpg",
+                "description": "A cat with a energetic personality."
+            }
+        ]
+    },
+    {
+        "id": 77,
+        "name": "John Johnson",
+        "age": 27,
+        "email": "johnjohnson77@example.com",
+        "password": "securepassword77",
+        "role": "admin",
+        "status": "inactive",
+        "pets": [
+            {
+                "id": 500,
+                "name": "Pet-35",
+                "age": 8,
+                "species": "Cat",
+                "race": "Parakeet",
+                "owner": 77,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet69.jpg",
+                "description": "A fish with a playful personality."
+            },
+            {
+                "id": 278,
+                "name": "Pet-63",
+                "age": 14,
+                "species": "Cat",
+                "race": "Goldfish",
+                "owner": 77,
+                "status": "active",
+                "profilePic": "https://example.com/pet48.jpg",
+                "description": "A dog with a calm personality."
+            },
+            {
+                "id": 971,
+                "name": "Pet-28",
+                "age": 5,
+                "species": "Rabbit",
+                "race": "Parakeet",
+                "owner": 77,
+                "status": "active",
+                "profilePic": "https://example.com/pet58.jpg",
+                "description": "A dog with a calm personality."
+            }
+        ]
+    },
+    {
+        "id": 78,
+        "name": "Michael Williams",
+        "age": 61,
+        "email": "michaelwilliams78@example.com",
+        "password": "securepassword78",
+        "role": "admin",
+        "status": "inactive",
+        "pets": [
+            {
+                "id": 555,
+                "name": "Pet-62",
+                "age": 4,
+                "species": "Cat",
+                "race": "Labrador",
+                "owner": 78,
+                "status": "active",
+                "profilePic": "https://example.com/pet2.jpg",
+                "description": "A bird with a playful personality."
+            },
+            {
+                "id": 151,
+                "name": "Pet-3",
+                "age": 11,
+                "species": "Cat",
+                "race": "Angora",
+                "owner": 78,
+                "status": "active",
+                "profilePic": "https://example.com/pet93.jpg",
+                "description": "A fish with a calm personality."
+            }
+        ]
+    },
+    {
+        "id": 79,
+        "name": "Sarah Smith",
+        "age": 64,
+        "email": "sarahsmith79@example.com",
+        "password": "securepassword79",
+        "role": "admin",
+        "status": "inactive",
+        "pets": [
+            {
+                "id": 682,
+                "name": "Pet-87",
+                "age": 9,
+                "species": "Cat",
+                "race": "Angora",
+                "owner": 79,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet43.jpg",
+                "description": "A bird with a energetic personality."
+            },
+            {
+                "id": 302,
+                "name": "Pet-12",
+                "age": 3,
+                "species": "Fish",
+                "race": "Labrador",
+                "owner": 79,
+                "status": "active",
+                "profilePic": "https://example.com/pet88.jpg",
+                "description": "A rabbit with a energetic personality."
+            },
+            {
+                "id": 37,
+                "name": "Pet-82",
+                "age": 14,
+                "species": "Dog",
+                "race": "Labrador",
+                "owner": 79,
+                "status": "active",
+                "profilePic": "https://example.com/pet75.jpg",
+                "description": "A fish with a calm personality."
+            }
+        ]
+    },
+    {
+        "id": 80,
+        "name": "David Doe",
+        "age": 59,
+        "email": "daviddoe80@example.com",
+        "password": "securepassword80",
+        "role": "admin",
+        "status": "inactive",
+        "pets": [
+            {
+                "id": 808,
+                "name": "Pet-11",
+                "age": 11,
+                "species": "Bird",
+                "race": "Persian",
+                "owner": 80,
+                "status": "active",
+                "profilePic": "https://example.com/pet23.jpg",
+                "description": "A bird with a calm personality."
+            }
+        ]
+    },
+    {
+        "id": 81,
+        "name": "Michael Jones",
+        "age": 36,
+        "email": "michaeljones81@example.com",
+        "password": "securepassword81",
+        "role": "user",
+        "status": "active",
+        "pets": [
+            {
+                "id": 229,
+                "name": "Pet-72",
+                "age": 5,
+                "species": "Cat",
+                "race": "Labrador",
+                "owner": 81,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet64.jpg",
+                "description": "A dog with a energetic personality."
+            },
+            {
+                "id": 335,
+                "name": "Pet-20",
+                "age": 15,
+                "species": "Bird",
+                "race": "Persian",
+                "owner": 81,
+                "status": "active",
+                "profilePic": "https://example.com/pet29.jpg",
+                "description": "A fish with a calm personality."
+            },
+            {
+                "id": 366,
+                "name": "Pet-44",
+                "age": 12,
+                "species": "Rabbit",
+                "race": "Persian",
+                "owner": 81,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet81.jpg",
+                "description": "A rabbit with a calm personality."
+            }
+        ]
+    },
+    {
+        "id": 82,
+        "name": "Jessica Smith",
+        "age": 48,
+        "email": "jessicasmith82@testmail.com",
+        "password": "securepassword82",
+        "role": "admin",
+        "status": "inactive",
+        "pets": [
+            {
+                "id": 636,
+                "name": "Pet-78",
+                "age": 8,
+                "species": "Rabbit",
+                "race": "Parakeet",
+                "owner": 82,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet93.jpg",
+                "description": "A bird with a energetic personality."
+            },
+            {
+                "id": 127,
+                "name": "Pet-16",
+                "age": 2,
+                "species": "Rabbit",
+                "race": "Angora",
+                "owner": 82,
+                "status": "active",
+                "profilePic": "https://example.com/pet91.jpg",
+                "description": "A rabbit with a playful personality."
+            },
+            {
+                "id": 179,
+                "name": "Pet-81",
+                "age": 3,
+                "species": "Dog",
+                "race": "Goldfish",
+                "owner": 82,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet31.jpg",
+                "description": "A dog with a friendly personality."
+            }
+        ]
+    },
+    {
+        "id": 83,
+        "name": "John Smith",
+        "age": 65,
+        "email": "johnsmith83@mailinator.com",
+        "password": "securepassword83",
+        "role": "admin",
+        "status": "active",
+        "pets": [
+            {
+                "id": 363,
+                "name": "Pet-40",
+                "age": 13,
+                "species": "Cat",
+                "race": "Angora",
+                "owner": 83,
+                "status": "active",
+                "profilePic": "https://example.com/pet20.jpg",
+                "description": "A dog with a friendly personality."
+            }
+        ]
+    },
+    {
+        "id": 84,
+        "name": "John Johnson",
+        "age": 51,
+        "email": "johnjohnson84@mailinator.com",
+        "password": "securepassword84",
+        "role": "admin",
+        "status": "active",
+        "pets": [
+            {
+                "id": 184,
+                "name": "Pet-8",
+                "age": 7,
+                "species": "Bird",
+                "race": "Persian",
+                "owner": 84,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet41.jpg",
+                "description": "A bird with a energetic personality."
+            },
+            {
+                "id": 81,
+                "name": "Pet-54",
+                "age": 7,
+                "species": "Rabbit",
+                "race": "Labrador",
+                "owner": 84,
+                "status": "active",
+                "profilePic": "https://example.com/pet4.jpg",
+                "description": "A fish with a friendly personality."
+            }
+        ]
+    },
+    {
+        "id": 85,
+        "name": "Michael Johnson",
+        "age": 45,
+        "email": "michaeljohnson85@example.com",
+        "password": "securepassword85",
+        "role": "admin",
+        "status": "active",
+        "pets": [
+            {
+                "id": 148,
+                "name": "Pet-28",
+                "age": 12,
+                "species": "Cat",
+                "race": "Persian",
+                "owner": 85,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet45.jpg",
+                "description": "A dog with a energetic personality."
+            }
+        ]
+    },
+    {
+        "id": 86,
+        "name": "David Martinez",
+        "age": 41,
+        "email": "davidmartinez86@testmail.com",
+        "password": "securepassword86",
+        "role": "user",
+        "status": "active",
+        "pets": [
+            {
+                "id": 62,
+                "name": "Pet-37",
+                "age": 12,
+                "species": "Dog",
+                "race": "Goldfish",
+                "owner": 86,
+                "status": "active",
+                "profilePic": "https://example.com/pet46.jpg",
+                "description": "A rabbit with a calm personality."
+            },
+            {
+                "id": 796,
+                "name": "Pet-70",
+                "age": 3,
+                "species": "Bird",
+                "race": "Angora",
+                "owner": 86,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet60.jpg",
+                "description": "A fish with a energetic personality."
+            },
+            {
+                "id": 635,
+                "name": "Pet-90",
+                "age": 5,
+                "species": "Rabbit",
+                "race": "Persian",
+                "owner": 86,
+                "status": "active",
+                "profilePic": "https://example.com/pet55.jpg",
+                "description": "A fish with a friendly personality."
+            }
+        ]
+    },
+    {
+        "id": 87,
+        "name": "Sarah Johnson",
+        "age": 38,
+        "email": "sarahjohnson87@mailinator.com",
+        "password": "securepassword87",
+        "role": "admin",
+        "status": "active",
+        "pets": [
+            {
+                "id": 372,
+                "name": "Pet-8",
+                "age": 15,
+                "species": "Bird",
+                "race": "Parakeet",
+                "owner": 87,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet75.jpg",
+                "description": "A dog with a energetic personality."
+            },
+            {
+                "id": 41,
+                "name": "Pet-53",
+                "age": 14,
+                "species": "Bird",
+                "race": "Goldfish",
+                "owner": 87,
+                "status": "active",
+                "profilePic": "https://example.com/pet46.jpg",
+                "description": "A bird with a energetic personality."
+            }
+        ]
+    },
+    {
+        "id": 88,
+        "name": "David Johnson",
+        "age": 21,
+        "email": "davidjohnson88@example.com",
+        "password": "securepassword88",
+        "role": "admin",
+        "status": "active",
+        "pets": [
+            {
+                "id": 333,
+                "name": "Pet-45",
+                "age": 5,
+                "species": "Cat",
+                "race": "Parakeet",
+                "owner": 88,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet15.jpg",
+                "description": "A bird with a friendly personality."
+            },
+            {
+                "id": 39,
+                "name": "Pet-41",
+                "age": 9,
+                "species": "Fish",
+                "race": "Parakeet",
+                "owner": 88,
+                "status": "active",
+                "profilePic": "https://example.com/pet12.jpg",
+                "description": "A bird with a energetic personality."
+            },
+            {
+                "id": 69,
+                "name": "Pet-79",
+                "age": 4,
+                "species": "Dog",
+                "race": "Labrador",
+                "owner": 88,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet14.jpg",
+                "description": "A rabbit with a calm personality."
+            }
+        ]
+    },
+    {
+        "id": 89,
+        "name": "Chris Garcia",
+        "age": 48,
+        "email": "chrisgarcia89@example.com",
+        "password": "securepassword89",
+        "role": "user",
+        "status": "active",
+        "pets": [
+            {
+                "id": 852,
+                "name": "Pet-71",
+                "age": 1,
+                "species": "Fish",
+                "race": "Goldfish",
+                "owner": 89,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet10.jpg",
+                "description": "A cat with a friendly personality."
+            },
+            {
+                "id": 543,
+                "name": "Pet-53",
+                "age": 6,
+                "species": "Cat",
+                "race": "Labrador",
+                "owner": 89,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet26.jpg",
+                "description": "A fish with a energetic personality."
+            }
+        ]
+    },
+    {
+        "id": 90,
+        "name": "Emily Brown",
+        "age": 61,
+        "email": "emilybrown90@example.com",
+        "password": "securepassword90",
+        "role": "admin",
+        "status": "inactive",
+        "pets": [
+            {
+                "id": 858,
+                "name": "Pet-26",
+                "age": 2,
+                "species": "Bird",
+                "race": "Goldfish",
+                "owner": 90,
+                "status": "active",
+                "profilePic": "https://example.com/pet92.jpg",
+                "description": "A cat with a playful personality."
+            },
+            {
+                "id": 784,
+                "name": "Pet-46",
+                "age": 1,
+                "species": "Dog",
+                "race": "Angora",
+                "owner": 90,
+                "status": "active",
+                "profilePic": "https://example.com/pet75.jpg",
+                "description": "A cat with a playful personality."
+            },
+            {
+                "id": 991,
+                "name": "Pet-75",
+                "age": 4,
+                "species": "Bird",
+                "race": "Parakeet",
+                "owner": 90,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet59.jpg",
+                "description": "A bird with a energetic personality."
+            }
+        ]
+    },
+    {
+        "id": 91,
+        "name": "Michael Jones",
+        "age": 34,
+        "email": "michaeljones91@example.com",
+        "password": "securepassword91",
+        "role": "user",
+        "status": "inactive",
+        "pets": [
+            {
+                "id": 841,
+                "name": "Pet-79",
+                "age": 12,
+                "species": "Dog",
+                "race": "Persian",
+                "owner": 91,
+                "status": "active",
+                "profilePic": "https://example.com/pet7.jpg",
+                "description": "A rabbit with a energetic personality."
+            },
+            {
+                "id": 35,
+                "name": "Pet-94",
+                "age": 6,
+                "species": "Dog",
+                "race": "Labrador",
+                "owner": 91,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet94.jpg",
+                "description": "A cat with a calm personality."
+            }
+        ]
+    },
+    {
+        "id": 92,
+        "name": "Michael Martinez",
+        "age": 57,
+        "email": "michaelmartinez92@testmail.com",
+        "password": "securepassword92",
+        "role": "admin",
+        "status": "inactive",
+        "pets": [
+            {
+                "id": 738,
+                "name": "Pet-43",
+                "age": 6,
+                "species": "Dog",
+                "race": "Parakeet",
+                "owner": 92,
+                "status": "active",
+                "profilePic": "https://example.com/pet92.jpg",
+                "description": "A rabbit with a playful personality."
+            }
+        ]
+    },
+    {
+        "id": 93,
+        "name": "Jessica Garcia",
+        "age": 38,
+        "email": "jessicagarcia93@testmail.com",
+        "password": "securepassword93",
+        "role": "user",
+        "status": "inactive",
+        "pets": [
+            {
+                "id": 553,
+                "name": "Pet-9",
+                "age": 8,
+                "species": "Cat",
+                "race": "Goldfish",
+                "owner": 93,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet60.jpg",
+                "description": "A fish with a calm personality."
+            }
+        ]
+    },
+    {
+        "id": 94,
+        "name": "Chris Smith",
+        "age": 45,
+        "email": "chrissmith94@testmail.com",
+        "password": "securepassword94",
+        "role": "user",
+        "status": "inactive",
+        "pets": [
+            {
+                "id": 691,
+                "name": "Pet-4",
+                "age": 10,
+                "species": "Cat",
+                "race": "Goldfish",
+                "owner": 94,
+                "status": "active",
+                "profilePic": "https://example.com/pet18.jpg",
+                "description": "A fish with a calm personality."
+            },
+            {
+                "id": 706,
+                "name": "Pet-28",
+                "age": 3,
+                "species": "Cat",
+                "race": "Persian",
+                "owner": 94,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet96.jpg",
+                "description": "A bird with a friendly personality."
+            }
+        ]
+    },
+    {
+        "id": 95,
+        "name": "Chris Doe",
+        "age": 55,
+        "email": "chrisdoe95@mailinator.com",
+        "password": "securepassword95",
+        "role": "user",
+        "status": "inactive",
+        "pets": [
+            {
+                "id": 934,
+                "name": "Pet-10",
+                "age": 15,
+                "species": "Bird",
+                "race": "Parakeet",
+                "owner": 95,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet17.jpg",
+                "description": "A bird with a calm personality."
+            },
+            {
+                "id": 297,
+                "name": "Pet-100",
+                "age": 7,
+                "species": "Cat",
+                "race": "Labrador",
+                "owner": 95,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet16.jpg",
+                "description": "A dog with a playful personality."
+            }
+        ]
+    },
+    {
+        "id": 96,
+        "name": "Sarah Martinez",
+        "age": 27,
+        "email": "sarahmartinez96@testmail.com",
+        "password": "securepassword96",
+        "role": "admin",
+        "status": "active",
+        "pets": [
+            {
+                "id": 860,
+                "name": "Pet-57",
+                "age": 6,
+                "species": "Bird",
+                "race": "Persian",
+                "owner": 96,
+                "status": "active",
+                "profilePic": "https://example.com/pet23.jpg",
+                "description": "A fish with a energetic personality."
+            }
+        ]
+    },
+    {
+        "id": 97,
+        "name": "John Johnson",
+        "age": 56,
+        "email": "johnjohnson97@testmail.com",
+        "password": "securepassword97",
+        "role": "admin",
+        "status": "inactive",
+        "pets": [
+            {
+                "id": 765,
+                "name": "Pet-56",
+                "age": 6,
+                "species": "Rabbit",
+                "race": "Angora",
+                "owner": 97,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet81.jpg",
+                "description": "A fish with a friendly personality."
+            },
+            {
+                "id": 79,
+                "name": "Pet-30",
+                "age": 5,
+                "species": "Bird",
+                "race": "Parakeet",
+                "owner": 97,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet99.jpg",
+                "description": "A bird with a energetic personality."
+            }
+        ]
+    },
+    {
+        "id": 98,
+        "name": "Emily Garcia",
+        "age": 22,
+        "email": "emilygarcia98@testmail.com",
+        "password": "securepassword98",
+        "role": "admin",
+        "status": "inactive",
+        "pets": [
+            {
+                "id": 724,
+                "name": "Pet-94",
+                "age": 11,
+                "species": "Bird",
+                "race": "Persian",
+                "owner": 98,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet75.jpg",
+                "description": "A rabbit with a friendly personality."
+            },
+            {
+                "id": 132,
+                "name": "Pet-64",
+                "age": 6,
+                "species": "Cat",
+                "race": "Angora",
+                "owner": 98,
+                "status": "active",
+                "profilePic": "https://example.com/pet85.jpg",
+                "description": "A bird with a playful personality."
+            }
+        ]
+    },
+    {
+        "id": 99,
+        "name": "John Doe",
+        "age": 19,
+        "email": "johndoe99@testmail.com",
+        "password": "securepassword99",
+        "role": "user",
+        "status": "active",
+        "pets": [
+            {
+                "id": 151,
+                "name": "Pet-31",
+                "age": 4,
+                "species": "Rabbit",
+                "race": "Persian",
+                "owner": 99,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet68.jpg",
+                "description": "A fish with a friendly personality."
+            },
+            {
+                "id": 569,
+                "name": "Pet-21",
+                "age": 13,
+                "species": "Cat",
+                "race": "Labrador",
+                "owner": 99,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet85.jpg",
+                "description": "A bird with a playful personality."
+            }
+        ]
+    },
+    {
+        "id": 100,
+        "name": "Emily Johnson",
+        "age": 59,
+        "email": "emilyjohnson100@testmail.com",
+        "password": "securepassword100",
+        "role": "admin",
+        "status": "inactive",
+        "pets": [
+            {
+                "id": 514,
+                "name": "Pet-55",
+                "age": 11,
+                "species": "Fish",
+                "race": "Goldfish",
+                "owner": 100,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet98.jpg",
+                "description": "A fish with a friendly personality."
+            },
+            {
+                "id": 536,
+                "name": "Pet-99",
+                "age": 8,
+                "species": "Dog",
+                "race": "Persian",
+                "owner": 100,
+                "status": "active",
+                "profilePic": "https://example.com/pet41.jpg",
+                "description": "A fish with a playful personality."
+            },
+            {
+                "id": 889,
+                "name": "Pet-53",
+                "age": 14,
+                "species": "Dog",
+                "race": "Angora",
+                "owner": 100,
+                "status": "inactive",
+                "profilePic": "https://example.com/pet82.jpg",
+                "description": "A dog with a calm personality."
+            }
+        ]
+    }
+]
