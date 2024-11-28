@@ -25,11 +25,11 @@ function goBackToList() {
 
 document.getElementById('message-input').addEventListener('keypress', (event) => {
     if (event.key === 'Enter') {
-        document.getElementById('send-button').click();
+        document.getElementById('sendButton').click();
     }
 });
 
-document.getElementById('send-button').addEventListener('click', () => {    
+document.getElementById('sendButton').addEventListener('click', () => {    
     
     const message = document.getElementById('message-input').value;
     document.getElementById('message-input').value = '';
