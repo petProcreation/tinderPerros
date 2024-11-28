@@ -14,7 +14,7 @@ function createProfileCard(profile){
     profileCard.className = 'profile-card';
     profileCard.innerHTML = `
         <div class="card">
-            <img src="${profile.image}" class="card-img-top" alt="Labrador café" height="240" width="40">
+            <img src="${profile.profilePic}" class="card-img-top" alt="Labrador café" height="240" width="40">
             <div class="card-body">
                 <h5 class="card-title">${profile.name}</h5>
                 <p class="card-text">${profile.description}</p>
