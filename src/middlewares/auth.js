@@ -1,10 +1,17 @@
-const express = require('express');
+const jwt = require('jsonwebtoken');
+const secretKey = 'petprocOt2024'; 
 
 const auth = (req, res, next) => {
-    if (!req.session.user) {
-        res.redirect('/login');
-    } else {
+    const token = req.headers['authorization'];
+    if (!token) {
+        return res.status(401).send('Acceso denegado');
+    }
+    try {
+        const decoded = jwt.verify(token, secretKey);
+        req.user = decoded;
         next();
+    } catch (error) {
+        res.status(400).send('Token inválido');
     }
 };
 

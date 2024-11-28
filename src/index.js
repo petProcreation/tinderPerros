@@ -2,8 +2,8 @@ const express = require('express');
 const router = require('./routes/index');
 const { configDotenv } = require('dotenv');
 const { connect } = require('mongoose');
-const { Server } = require('socket.io')
-require('dotenv')
+const { Server } = require('socket.io');
+require('dotenv').config();
 const mongoose = require('mongoose');
 
 configDotenv();
@@ -18,7 +18,6 @@ db.on('connected', () => {
     console.log('Conexión establecida correctamente.');
     console.log(mongoose.connection.readyState);
 });
-
 
 const app = express();
 app.use(express.static('public'));
@@ -50,9 +49,6 @@ connect(dburl).then(res => {
         console.log('User disconnected');
     });
     
-    
-
-
 }).catch(err => {
     console.log("Error connecting to DB");
-});    
+});
