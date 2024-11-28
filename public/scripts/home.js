@@ -14,7 +14,35 @@ document.getElementById('login-btn').addEventListener('click', () => {
   document.getElementById('close-register').addEventListener('click', () => {
     document.getElementById('register-modal').classList.add('hidden');
   });
-  
+
+document.getElementById('registerPet').addEventListener('click', () => {
+    const petName = document.getElementById('petName');
+    const petAge = document.getElementById('petAge');
+    const petBreed = document.getElementById('petBreed');
+    const petSize = document.getElementById('petSize');
+    const petGender = document.getElementById('petGender');
+    const petDescription = document.getElementById('petDescription');
+    
+    fetch('/api/v0/pets/', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+            'Authorization': `Bearer ${localStorage.getItem('token')}`
+        },
+        body: JSON.stringify(
+            { name: petName.value,
+                age: petAge.value,
+                 breed: petBreed.value, 
+                 size: petSize.value,
+                gender: petGender.value,
+                description: petDescription.value})
+                .then(response => response.json())
+    })
+});
+
+
+
+
   document.getElementById('registerForm').addEventListener('submit', async function(event) {
     event.preventDefault();
     const name = document.getElementById('registerName').value;
