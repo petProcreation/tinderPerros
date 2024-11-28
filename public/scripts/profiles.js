@@ -96,3 +96,4 @@ allProfiles.then(profiles => {
     renderProfiles(profiles);
     drawPagination();
 });
+
