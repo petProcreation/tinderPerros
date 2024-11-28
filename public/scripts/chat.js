@@ -23,10 +23,16 @@ function goBackToList() {
     document.getElementById('chat-list').classList.remove('d-none');
 }
 
-
+document.getElementById('message-input').addEventListener('keypress', (event) => {
+    if (event.key === 'Enter') {
+        document.getElementById('send-button').click();
+    }
+});
 
 document.getElementById('send-button').addEventListener('click', () => {    
+    
     const message = document.getElementById('message-input').value;
+    document.getElementById('message-input').value = '';
 
     // Agregar la data que necesitemos 
     socket.emit('sendNewMessage', { message });
