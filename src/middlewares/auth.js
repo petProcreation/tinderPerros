@@ -8,30 +8,4 @@ const auth = (req, res, next) => {
     }
 };
 
- // autenticación
- function isAuthenticated() {
-s
-    return false;
-}
-
-document.getElementById('profiles-link').addEventListener('click', function(event) {
-    if (!isAuthenticated()) {
-        event.preventDefault();
-        var loginModal = new bootstrap.Modal(document.getElementById('loginModal'));
-        loginModal.show();
-    } else {
-        window.location.href = '/views/profiles.html';
-    }
-});
-
-document.getElementById('chats-link').addEventListener('click', function(event) {
-    if (!isAuthenticated()) {
-        event.preventDefault();
-        var loginModal = new bootstrap.Modal(document.getElementById('loginModal'));
-        loginModal.show();
-    } else {
-        window.location.href = '/views/chat.html';
-    }
-});
-
 module.exports = auth;
